@@ -18,12 +18,12 @@ Each agent is governed by:
 
 All agents are documented in the [AI Agents Directory (AGENTS.md)](./AGENTS.md). Here is the category breakdown:
 
-1. **Architecture & Code Quality**: [Architect](./architect.md), [Steward](./steward.md), [Gardener](./gardener.md), [Curator](./curator.md)
-2. **User Experience & Design**: [Navigator](./navigator.md), [Palette](./palette.md), [Quill](./quill.md)
-3. **Testing, Security & Resilience**: [Inspector](./inspector.md), [Sentinel](./sentinel.md), [Sledge](./sledge.md), [Bolt](./bolt.md)
-4. **Kubernetes & Infrastructure Configs**: [Operator](./operator.md), [Registrar](./registrar.md), [Helmsman](./helmsman.md), [Tailor](./tailor.md)
-5. **CI/CD & Delivery Pipelines**: [Butler](./butler.md), [Mason](./mason.md)
-6. **Observability, Telemetry & Onboarding**: [Beacon](./beacon.md), [Watcher](./watcher.md), [Compass](./compass.md), [Scribe](./scribe.md), [Pathfinder](./pathfinder.md)
+1. **Architecture & Code Quality**: [Architect](./agents/architect.md), [Steward](./agents/steward.md), [Gardener](./agents/gardener.md), [Curator](./agents/curator.md)
+2. **User Experience & Design**: [Navigator](./agents/navigator.md), [Palette](./agents/palette.md), [Quill](./agents/quill.md)
+3. **Testing, Security & Resilience**: [Inspector](./agents/inspector.md), [Sentinel](./agents/sentinel.md), [Sledge](./agents/sledge.md), [Bolt](./agents/bolt.md)
+4. **Kubernetes & Infrastructure Configs**: [Operator](./agents/operator.md), [Registrar](./agents/registrar.md), [Helmsman](./agents/helmsman.md), [Tailor](./agents/tailor.md)
+5. **CI/CD & Delivery Pipelines**: [Butler](./agents/butler.md), [Mason](./agents/mason.md)
+6. **Observability, Telemetry & Onboarding**: [Beacon](./agents/beacon.md), [Watcher](./agents/watcher.md), [Compass](./agents/compass.md), [Scribe](./agents/scribe.md), [Pathfinder](./agents/pathfinder.md)
 
 ---
 
@@ -40,4 +40,4 @@ To keep the workspace clean, all agents are expected to adhere to the following 
 
 ## 🛠️ Usage
 
-When invoking an agent, mount its prompt markdown file (e.g., [steward.md](./steward.md)) as a system prompt instruction. This instructs the LLM on its exact bounds and the verification steps it must perform before completing its tasks.
+When invoking an agent, mount its prompt markdown file (e.g., [steward.md](./agents/steward.md)) as a system prompt instruction. This instructs the LLM on its exact bounds and the verification steps it must perform before completing its tasks.

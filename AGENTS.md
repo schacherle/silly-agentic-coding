@@ -17,57 +17,57 @@ Welcome to the agentic workspace. This document serves as the directory and coor
 ## 🗂️ Agent Directory
 
 ### 1. Architecture & Code Quality
-* **Architect** 🧭 ([architect.md](./architect.md))  
+* **Architect** 🧭 ([architect.md](./agents/architect.md))  
   Responsible for architectural consistency, module boundaries, and high-level project structure.
-* **Steward** 🧹 ([steward.md](./steward.md))  
+* **Steward** 🧹 ([steward.md](./agents/steward.md))  
   Focuses on code quality, maintainability, readability, and refactoring away technical debt.
-* **Gardener** 🌱 ([gardener.md](./gardener.md))  
+* **Gardener** 🌱 ([gardener.md](./agents/gardener.md))  
   Handles general hygiene, pruning dead code, cleaning imports, and removing technical clutter.
-* **Curator** 📦 ([curator.md](./curator.md))  
+* **Curator** 📦 ([curator.md](./agents/curator.md))  
   Manages packages and third-party dependencies, version updates, and lockfile hygiene.
 
 ### 2. User Experience & Design
-* **Navigator** 🧭 ([navigator.md](./navigator.md))  
+* **Navigator** 🧭 ([navigator.md](./agents/navigator.md))  
   Focused on user flows, page routing/transitions, and navigation correctness.
-* **Palette** 🎨 ([palette.md](./palette.md))  
+* **Palette** 🎨 ([palette.md](./agents/palette.md))  
   Owns styling (CSS), UI animations, accessible layouts, and visual delight.
-* **Quill** ✒️ ([quill.md](./quill.md))  
+* **Quill** ✒️ ([quill.md](./agents/quill.md))  
   Responsible for copywriting, user-facing text, notifications, and copy consistency.
 
 ### 3. Testing, Security & Resilience
-* **Inspector** 🧪 ([inspector.md](./inspector.md))  
+* **Inspector** 🧪 ([inspector.md](./agents/inspector.md))  
   Improves code confidence by adding unit, integration, and end-to-end tests.
-* **Sentinel** 🛡️ ([sentinel.md](./sentinel.md))  
+* **Sentinel** 🛡️ ([sentinel.md](./agents/sentinel.md))  
   Audits configurations, manages security scanning, and secures potential vulnerabilities.
-* **Sledge** 🔨 ([sledge.md](./sledge.md))  
+* **Sledge** 🔨 ([sledge.md](./agents/sledge.md))  
   Executes load tests, resilience validation, and highlights system failure boundaries.
-* **Bolt** ⚡ ([bolt.md](./bolt.md))  
+* **Bolt** ⚡ ([bolt.md](./agents/bolt.md))  
   Implements execution micro-optimizations, caching, and performance tuning.
 
 ### 4. Kubernetes & Infrastructure Configs
-* **Operator** ⚙️ ([operator.md](./operator.md))  
+* **Operator** ⚙️ ([operator.md](./agents/operator.md))  
   Manages Kubernetes controller reconciliation loops, finalizers, and state synchronization.
-* **Registrar** 📋 ([registrar.md](./registrar.md))  
+* **Registrar** 📋 ([registrar.md](./agents/registrar.md))  
   Owns Kubernetes Custom Resource Definition (CRD) schema validation and API backward compatibility.
-* **Helmsman** ☸️ ([helmsman.md](./helmsman.md))  
+* **Helmsman** ☸️ ([helmsman.md](./agents/helmsman.md))  
   Builds, lints, and parameterizes Helm chart structures, templates, and `values.yaml` defaults.
-* **Tailor** 🪡 ([tailor.md](./tailor.md))  
+* **Tailor** 🪡 ([tailor.md](./agents/tailor.md))  
   Maintains and cleans Kustomize overlays, patch files, and manifest dry configurations.
 
 ### 5. CI/CD & Delivery Pipelines
-* **Butler** 🤵 ([butler.md](./butler.md))  
+* **Butler** 🤵 ([butler.md](./agents/butler.md))  
   Specializes in Jenkinsfile syntax, Scripted/Declarative stages, and Jenkins Shared Libraries.
-* **Mason** 🧱 ([mason.md](./mason.md))  
+* **Mason** 🧱 ([mason.md](./agents/mason.md))  
   Specializes in Kubernetes-native Tekton Pipelines, Tasks, and Workspace/volume bindings.
 
 ### 6. Observability, Telemetry & Onboarding
-* **Beacon** 📡 ([beacon.md](./beacon.md))  
+* **Beacon** 📡 ([beacon.md](./agents/beacon.md))  
   Handles OpenTelemetry collector pipelines, metrics export setups, and scrape configs.
-* **Watcher** 👁️ ([watcher.md](./watcher.md))  
+* **Watcher** 👁️ ([watcher.md](./agents/watcher.md))  
   Owns Grafana dashboard panel JSON templates, threshold settings, and alert routing policies.
-* **Compass** 📊 ([compass.md](./compass.md))  
+* **Compass** 📊 ([compass.md](./agents/compass.md))  
   Collects product usage analytics, event telemetry, and business intelligence indicators.
-* **Scribe** 📝 ([scribe.md](./scribe.md))  
+* **Scribe** 📝 ([scribe.md](./agents/scribe.md))  
   Owns project READMEs, developer onboarding guides, and documentation comments.
-* **Pathfinder** 🧭 ([pathfinder.md](./pathfinder.md))  
+* **Pathfinder** 🧭 ([pathfinder.md](./agents/pathfinder.md))  
   Focuses on developer experience (DX), automation scripts, and local workspace setup tools.
