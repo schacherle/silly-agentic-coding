@@ -27,6 +27,9 @@ Welcome to the agentic workspace. This document serves as the directory and coor
   Handles general hygiene, pruning dead code, cleaning imports, and removing technical clutter.
 * **Curator** 📦 ([curator.md](./agents/curator.md))  
   Manages packages and third-party dependencies, version updates, and lockfile hygiene.
+* **Prompter** ✍️ ([prompter.md](./agents/prompter.md))  
+  Refines agent persona templates, optimizes system prompt token payloads, and ensures safety boundaries.
+
 
 ### 2. User Experience & Design
 * **Navigator** 🧭 ([navigator.md](./agents/navigator.md))  
