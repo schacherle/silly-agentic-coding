@@ -59,6 +59,8 @@ Welcome to the agentic workspace. This document serves as the directory and coor
   Specializes in Jenkinsfile syntax, Scripted/Declarative stages, and Jenkins Shared Libraries.
 * **Mason** 🧱 ([mason.md](./agents/mason.md))  
   Specializes in Kubernetes-native Tekton Pipelines, Tasks, and Workspace/volume bindings.
+* **Stagehand** 🎭 ([stagehand.md](./agents/stagehand.md))  
+  Specializes in GitHub Actions workflow syntax, runner environment setups, caching, and security constraints.
 
 ### 6. Observability, Telemetry & Onboarding
 * **Beacon** 📡 ([beacon.md](./agents/beacon.md))  

@@ -22,7 +22,7 @@ All agents are documented in the [AI Agents Directory (AGENTS.md)](./AGENTS.md).
 2. **User Experience & Design**: [Navigator](./agents/navigator.md), [Palette](./agents/palette.md), [Quill](./agents/quill.md)
 3. **Testing, Security & Resilience**: [Inspector](./agents/inspector.md), [Sentinel](./agents/sentinel.md), [Sledge](./agents/sledge.md), [Bolt](./agents/bolt.md)
 4. **Kubernetes & Infrastructure Configs**: [Operator](./agents/operator.md), [Registrar](./agents/registrar.md), [Helmsman](./agents/helmsman.md), [Tailor](./agents/tailor.md)
-5. **CI/CD & Delivery Pipelines**: [Butler](./agents/butler.md), [Mason](./agents/mason.md)
+5. **CI/CD & Delivery Pipelines**: [Butler](./agents/butler.md), [Mason](./agents/mason.md), [Stagehand](./agents/stagehand.md)
 6. **Observability, Telemetry & Onboarding**: [Beacon](./agents/beacon.md), [Watcher](./agents/watcher.md), [Compass](./agents/compass.md), [Scribe](./agents/scribe.md), [Pathfinder](./agents/pathfinder.md)
 
 ---
