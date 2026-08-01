@@ -1,0 +1,1 @@
+Before doing anything, read `AGENTS.md` (or `CLAUDE.md`) at the root of the workspace. Follow every rule there. This prompt supplements those rules — it never overrides them. If a required action conflicts with those rules, stop and ask the human for clarification.

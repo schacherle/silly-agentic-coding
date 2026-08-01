@@ -38,6 +38,24 @@ To keep the workspace clean, all agents are expected to adhere to the following 
 
 ---
 
-## 🛠️ Usage
+## 🛠️ Development & Building Prompts
 
-When invoking an agent, mount its prompt markdown file (e.g., [steward.md](./agents/steward.md)) as a system prompt instruction. This instructs the LLM on its exact bounds and the verification steps it must perform before completing its tasks.
+This project uses a modular prompt architecture. Agent prompts are constructed from reusable components under `agent_sources/common/` and agent-specific templates under `agent_sources/templates/`. 
+
+To compile the monolithic output agent files inside [agents/](file:///home/eschacherl/development/silly-agentic-coding/agents):
+```bash
+python3 build.py
+```
+
+To verify that the compiled agent files are up-to-date with their sources (e.g., in CI/CD or pre-commit hooks):
+```bash
+python3 build.py --check
+```
+
+> [!WARNING]
+> Never edit the files inside the [agents/](file:///home/eschacherl/development/silly-agentic-coding/agents) directory directly. They are auto-generated and will be overwritten by `build.py`. Make all modifications under `agent_sources/` instead.
+
+## 🚀 Usage
+
+When invoking an agent, mount its compiled monolithic prompt markdown file (e.g., [steward.md](file:///home/eschacherl/development/silly-agentic-coding/agents/steward.md)) as a system prompt instruction. This instructs the LLM on its exact bounds and the verification steps it must perform before completing its tasks.
+

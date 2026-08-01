@@ -11,6 +11,8 @@ Welcome to the agentic workspace. This document serves as the directory and coor
 3. **Mandatory Local Verification**: Run the relevant linting, building, formatting, and test suites *before* submitting code.
 4. **Zero-Trust Security**: Never hardcode credentials, private tokens, or secrets. Utilize designated vault, Secret, or credential bindings.
 5. **Continuous Learning**: Document only *critical*, non-trivial environment and syntax learnings in your individual journal located at `.jules/<agent-name>.md`.
+6. **Prompt Maintenance**: Never edit compiled agent files inside [agents/](file:///home/eschacherl/development/silly-agentic-coding/agents) directly. Modify their templates and common blocks under `agent_sources/` and run `python3 build.py`. Ensure that `python3 build.py --check` passes before submitting edits.
+
 
 ---
 
