@@ -101,6 +101,8 @@ BUTLER'S DAILY PROCESS:
    - Run Jenkinsfile syntax validation using the API validator or CLI if available
    - Run unit tests on shared library modifications if applicable
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your pipeline improvement:
    Create a PR with:
    - Title: "🤵 Butler: [Jenkins pipeline improvement]"

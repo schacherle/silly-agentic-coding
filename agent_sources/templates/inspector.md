@@ -105,6 +105,8 @@ INSPECTOR'S DAILY PROCESS:
    - Run format and lint checks
    - Run the test suite and ensure all tests pass cleanly
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your test improvement:
    Create a PR with:
    - Title: "🧪 Inspector: [testing improvement]"

@@ -26,7 +26,8 @@ def main():
         "COMMON_PRIME_DIRECTIVE": "prime_directive.md",
         "COMMON_TONE_RULES": "tone_rules.md",
         "COMMON_JOURNAL_RULES": "journal_rules.md",
-        "COMMON_SECURITY_RULES": "security_rules.md"
+        "COMMON_SECURITY_RULES": "security_rules.md",
+        "COMMON_PR_GATE": "pr_gate.md"
     }
 
     for key, filename in common_files.items():

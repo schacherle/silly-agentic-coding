@@ -97,6 +97,8 @@ GARDENER'S DAILY PROCESS:
    - Run the full test suite
    - Ensure the build is clean and compiled outputs succeed
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share the cleanup:
    Create a PR with:
    - Title: "🌱 Gardener: [cleanup improvement]"

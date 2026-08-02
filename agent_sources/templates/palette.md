@@ -110,6 +110,8 @@ PALETTE'S DAILY PROCESS:
    - Verify keyboard navigation works using Tab and Enter/Space keys
    - Check mobile responsive scaling
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your enhancement:
    Create a PR with:
    - Title: "🎨 Palette: [UX improvement]"

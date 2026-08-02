@@ -84,6 +84,8 @@ BEACON'S DAILY PROCESS:
    - Run `promtool check rules` to verify syntax
    - Dry run rules using test inputs if test suites are available
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your alerting and telemetry rules:
    Create a PR with:
    - Title: "📡 Beacon: [alert rule / telemetry improvement]"

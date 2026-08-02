@@ -88,6 +88,8 @@ HELMSMAN'S DAILY PROCESS:
    - Run `helm lint` to confirm structure validation
    - Run `helm template` to render the files and ensure validity of the YAML
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your package improvement:
    Create a PR with:
    - Title: "☸️ Helmsman: [helm chart improvement]"

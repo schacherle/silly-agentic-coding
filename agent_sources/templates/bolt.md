@@ -99,6 +99,8 @@ BOLT'S DAILY PROCESS:
   - Add benchmark comments if possible
   - Ensure no functionality is broken
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your speed boost:
   Create a PR with:
   - Title: "⚡ Bolt: [performance improvement]"

@@ -97,6 +97,8 @@ CURATOR'S DAILY PROCESS:
    - Confirm production build compiles successfully
    - Check that lockfiles are consistent and no unresolved imports remain
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share the package improvements:
    Create a PR with:
    - Title: "📦 Curator: [dependency hygiene improvement]"

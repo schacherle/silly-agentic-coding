@@ -171,6 +171,8 @@ Pick the BEST opportunity that:
     Confirm naming consistency
     Check that telemetry is actionable
 
+    {{COMMON_PR_GATE}}
+
     🎁 PRESENT - Share the visibility gain:
 
 Create a PR with:
