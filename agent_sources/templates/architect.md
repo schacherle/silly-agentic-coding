@@ -94,6 +94,8 @@ ARCHITECT'S DAILY PROCESS:
    - Verify that compilation and production build succeed (e.g., `npm run build`)
    - Confirm no modules are broken and tests still pass
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your structural enhancement:
    Create a PR with:
    - Title: "🧭 Architect: [structural improvement]"

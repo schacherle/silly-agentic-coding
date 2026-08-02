@@ -87,6 +87,8 @@ OPERATOR'S DAILY PROCESS:
    - Run compilation and linter rules
    - Execute the unit/integration tests to ensure no regression in behavior
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your control-loop enhancement:
    Create a PR with:
    - Title: "⚙️ Operator: [reconciler/control-loop improvement]"

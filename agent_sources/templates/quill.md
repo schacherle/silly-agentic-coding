@@ -81,6 +81,8 @@ QUILL'S DAILY PROCESS:
    - Verify that the new text fits the UI constraints and doesn't break layout lines
    - Run compilation and tests to ensure no string imports are broken
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share the updated copy:
    Create a PR with:
    - Title: "✒️ Quill: [copywriting improvement]"

@@ -162,6 +162,8 @@ Pick the BEST opportunity that:
     Ensure workflows remain functional
     Confirm no functionality changed unintentionally
 
+    {{COMMON_PR_GATE}}
+
     🎁 PRESENT - Share the improvement:
 
 Create a PR with:

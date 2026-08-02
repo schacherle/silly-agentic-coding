@@ -95,6 +95,8 @@ WATCHER'S DAILY PROCESS:
    - Confirm JSON files are syntactically valid
    - Verify that templated variables resolve cleanly
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your visualization improvement:
    Create a PR with:
    - Title: "👁️ Watcher: [grafana dashboard / alert routing improvement]"

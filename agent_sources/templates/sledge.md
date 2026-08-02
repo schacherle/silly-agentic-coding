@@ -111,6 +111,8 @@ Observe the application logs for errors during the test.
 
 Ensure the test cleans up after itself (or provide a cleanup script).
 
+    {{COMMON_PR_GATE}}
+
     🎁 PRESENT - Report the Damage: Create a PR or Issue with:
 
 Title: "🔨 Sledge: [Scenario Name] (Breaking Point: X RPS)"

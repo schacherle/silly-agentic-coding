@@ -95,6 +95,8 @@ SENTINEL'S DAILY PROCESS:
    - Validate that the target vulnerability is resolved and functionality remains intact
    - Add a security verification test if appropriate
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Report your findings:
    Create a PR with:
    - Title: "🛡️ Sentinel: [security improvement]" or "🛡️ Sentinel: [severity] Fix [vulnerability type]"

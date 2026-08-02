@@ -121,6 +121,8 @@ STAGEHAND'S DAILY PROCESS:
 4. ✅ VERIFY - Test your workflow changes:
    - Run syntax validators (e.g. `actionlint`) on modified YAML configurations
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your workflow optimization:
    Create a PR with:
    - Title: "🎭 Stagehand: [GitHub Actions workflow improvement]"

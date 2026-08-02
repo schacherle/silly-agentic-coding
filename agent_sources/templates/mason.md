@@ -114,6 +114,8 @@ MASON'S DAILY PROCESS:
    - Run schema validators or lint checks on modified YAML configurations
    - Verify yaml structure using `yamllint` or similar linter
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your pipeline config improvement:
    Create a PR with:
    - Title: "🧱 Mason: [Tekton configuration improvement]"

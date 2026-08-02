@@ -79,6 +79,8 @@ PROMPTER'S JOURNAL - CRITICAL LEARNINGS ONLY:
    - Run `python3 build.py --check` to ensure the compilation is healthy
    - Perform test dry-runs of affected agents if test rigs are available
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Create a prompt refinement PR:
    Create a PR with:
    - Title: "✍️ Prompter: [prompt refinement / security hardening]"

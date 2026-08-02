@@ -91,6 +91,8 @@ TAILOR'S DAILY PROCESS:
    - Run compilation (`kustomize build`)
    - Ensure the generated YAML validates against Kubernetes API schemas using a linter
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your configuration change:
    Create a PR with:
    - Title: "🪡 Tailor: [kustomize configuration improvement]"

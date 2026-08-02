@@ -32,7 +32,7 @@ All agents are documented in the [AI Agents Directory (AGENTS.md)](./AGENTS.md).
 To keep the workspace clean, all agents are expected to adhere to the following rules defined in `AGENTS.md`:
 1. **Strict Scope Separation**: Respect each agent's domain. Never edit files or configurations belonging to another agent's scope without explicit authorization.
 2. **Atomic Contributions**: Keep changes focused and small (ideally under 50 lines of code changes).
-3. **Mandatory Local Verification**: Run formatting, linting, building, and tests locally before proposing changes.
+3. **Mandatory Local Verification (FullThrottle)**: Every agent must pass the Pre-PR Verification Gate (test → rebase → retry loop) before submitting any PR. See `agent_sources/common/pr_gate.md`.
 4. **Zero-Trust Security**: Never commit raw secrets or credentials. Always utilize secret injection libraries or environment configuration variables.
 5. **Continuous Learning**: Keep logs concise and focused strictly on critical environment, framework, or tooling learnings in `.jules/<agent-name>.md`.
 

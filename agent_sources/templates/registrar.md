@@ -92,6 +92,8 @@ REGISTRAR'S DAILY PROCESS:
    - Run compilation, API linter rules, and standard tests
    - Verify generated YAML files are valid and complete
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your schema enhancement:
    Create a PR with:
    - Title: "📋 Registrar: [schema/validation improvement]"

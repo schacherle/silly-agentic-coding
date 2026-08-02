@@ -109,6 +109,8 @@ STEWARD'S DAILY PROCESS:
    - Run lint, format, and compilation checks
    - Run the full test suite to guarantee no behavior regressions
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share the refactored code:
    Create a PR with:
    - Title: "🧹 Steward: [code quality refactor]"

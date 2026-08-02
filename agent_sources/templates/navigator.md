@@ -97,6 +97,8 @@ NAVIGATOR'S DAILY PROCESS:
    - Verify that compilation and tests pass
    - Verify the flow behavior manually or check corresponding route tests
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share the flow improvement:
    Create a PR with:
    - Title: "🧭 Navigator: [navigation flow improvement]"

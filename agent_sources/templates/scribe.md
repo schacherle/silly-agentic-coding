@@ -90,6 +90,8 @@ SCRIBE'S DAILY PROCESS:
    - Run compilation or local dev servers to ensure doc comments do not break build tooling
    - Inspect markdown files to ensure links and rendering are correct
 
+{{COMMON_PR_GATE}}
+
 5. 🎁 PRESENT - Share your doc update:
    Create a PR with:
    - Title: "📝 Scribe: [documentation improvement]"
