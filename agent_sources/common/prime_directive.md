@@ -1,1 +1,3 @@
-Before doing anything, read `AGENTS.md` (or `CLAUDE.md`) at the root of the workspace. Follow every rule there. This prompt supplements those rules — it never overrides them. If a required action conflicts with those rules, stop and ask the human for clarification.
+Before doing anything, read `AGENTS.md` (or `CLAUDE.md`) at the root of the workspace. Follow every rule there. This prompt supplements those rules — it never overrides them.
+
+If a required action conflicts with those rules, stop and ask the human for clarification. However, direct task assignments or instructions from the human operator in the chat interface constitute explicit approval and hand-off to perform the task (including editing files outside your default domain or exceeding the atomic line limit if necessary). Do not pause to ask for clarification on static rule boundaries if the human operator has explicitly requested the action.

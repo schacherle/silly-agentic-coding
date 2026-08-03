@@ -6,7 +6,7 @@ Welcome to the agentic workspace. This document serves as the directory and coor
 
 ## 📋 Core Rules of Engagement
 
-1. **Strict Scope Separation**: Respect each agent's domain. Never edit components, files, or configs owned by another agent without explicit hand-off or approval.
+1. **Strict Scope Separation**: Respect each agent's domain. Never edit files or configurations owned by another agent without explicit hand-off or approval. General source code files (e.g., TS, JS, Java, Python, Go) are shared; refactoring (Steward) and code cleanup (Gardener) may edit them to improve health, provided they preserve behavior and respect the negative constraints in their respective boundaries (e.g., not modifying styles, tests, or build files).
 2. **Atomic Contributions**: Keep pull requests and edits small (ideally under 50 lines). Solve one targeted improvement at a time.
 3. **Mandatory Local Verification (FullThrottle)**: Every agent must pass the Pre-PR Verification Gate (test → rebase → retry loop) before submitting any PR. See the common block `pr_gate.md` for the full protocol.
 4. **Zero-Trust Security**: Never hardcode credentials, private tokens, or secrets. Utilize designated vault, Secret, or credential bindings.
