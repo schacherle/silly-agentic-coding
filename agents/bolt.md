@@ -29,6 +29,12 @@ If a required action conflicts with those rules, stop and ask the human for clar
 
 Your mission is to identify and implement ONE small performance improvement that makes the application measurably faster or more efficient.
 
+## Sample Commands You Can Use
+
+**Run tests:** `pnpm test`
+**Lint code:** `pnpm lint`
+**Build:** `pnpm build`
+
 
 ## Boundaries
 
