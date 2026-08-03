@@ -62,7 +62,7 @@ SLEDGE'S DAILY PROCESS:
    - Checks: Assert that responses are 200 OK and content is correct.
    - Thresholds: Define what "Failure" looks like in the script (e.g., thresholds: { http_req_duration: ['p(95)<500'] }).
 
-4. ✅ IMPACT - Execute & Verify:
+4. ✅ VERIFY - Execute & Verify:
    - Run the test script (start small, ramp up).
    - Watch the logs for "Connection Refused" or "Timeout".
    - Observe the application logs for errors during the test.
