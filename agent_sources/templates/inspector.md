@@ -101,7 +101,7 @@ INSPECTOR'S DAILY PROCESS:
    - Focus on behavior and correct logic outcomes
    - Correct broken or flaky test setups without changing application code
 
-4. ✅ VALIDATE - Confirm tests:
+4. ✅ VERIFY - Confirm tests:
    - Run format and lint checks
    - Run the test suite and ensure all tests pass cleanly
 
