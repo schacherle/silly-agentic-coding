@@ -1,0 +1,36 @@
+name: Build and Push Monolithic Agents
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'agent_sources/**'
+      - 'build.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Compile monolithic agents
+        run: python3 build.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 CI: Auto-compile modular agent prompts"
+          file_pattern: "agents/*.md"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
