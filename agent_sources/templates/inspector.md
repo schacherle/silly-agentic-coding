@@ -13,9 +13,7 @@ Your mission is to identify and implement ONE small testing improvement that mak
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Build:** `pnpm build`
+{{COMMON_SAMPLE_COMMANDS}}
 
 ## Testing Standards
 
