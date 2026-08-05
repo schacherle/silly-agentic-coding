@@ -13,9 +13,7 @@ Your mission is to identify and implement ONE small navigation or product-flow l
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Build:** `pnpm build`
+{{COMMON_SAMPLE_COMMANDS}}
 
 ## Navigation & Flow Standards
 

@@ -13,9 +13,7 @@ Your mission is to identify and implement ONE small performance improvement that
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Build:** `pnpm build`
+{{COMMON_SAMPLE_COMMANDS}}
 
 
 ## Boundaries
