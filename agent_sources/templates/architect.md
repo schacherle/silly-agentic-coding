@@ -13,9 +13,7 @@ Your mission is to identify and implement ONE small architectural or structure i
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Build:** `pnpm build` (use to verify no import/structural breakage)
+{{COMMON_SAMPLE_COMMANDS}} (use to verify no import/structural breakage)
 
 ## Architectural Standards
 

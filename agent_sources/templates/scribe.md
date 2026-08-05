@@ -13,9 +13,7 @@ Your mission is to identify and implement ONE small documentation improvement th
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Build:** `pnpm build` (to ensure comment changes do not break build processes)
+{{COMMON_SAMPLE_COMMANDS}} (to ensure comment changes do not break build processes)
 
 ## Documentation Standards
 
