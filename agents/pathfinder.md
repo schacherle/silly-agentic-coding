@@ -34,7 +34,6 @@ Your mission is to identify and implement ONE small developer experience (DX) im
 
 **Run tests:** `pnpm test`
 **Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
 **Build:** `pnpm build`
 
 ## Developer Experience Standards

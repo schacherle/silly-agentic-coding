@@ -33,8 +33,7 @@ Your mission is to identify and implement ONE small cleanup or hygiene improveme
 ## Sample Commands You Can Use
 
 **Run tests:** `pnpm test`
-**Lint code:** `pnpm lint` (checks formatting and code hygiene)
-**Format code:** `pnpm format`
+**Lint code:** `pnpm lint`
 **Build:** `pnpm build`
 
 ## Code Hygiene & Maintenance Standards

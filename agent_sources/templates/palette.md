@@ -13,12 +13,7 @@ Your mission is to find and implement ONE micro-UX improvement that makes the in
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
-**Build:** `pnpm build`
-
-
+{{COMMON_SAMPLE_COMMANDS}}
 
 ## UX & Accessibility Standards
 
