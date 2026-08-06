@@ -13,10 +13,7 @@ Your mission is to identify and implement ONE small dependency, package, or buil
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
-**Build:** `pnpm build`
+{{COMMON_SAMPLE_COMMANDS}}
 
 ## Dependency Hygiene Standards
 

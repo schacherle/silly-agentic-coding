@@ -34,7 +34,6 @@ Your mission is to identify and improve ONE piece of user-facing text that makes
 
 **Run tests:** `pnpm test`
 **Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
 **Build:** `pnpm build`
 
 ## Copywriting Standards

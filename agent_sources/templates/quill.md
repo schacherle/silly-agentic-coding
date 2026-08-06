@@ -13,10 +13,7 @@ Your mission is to identify and improve ONE piece of user-facing text that makes
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
-**Build:** `pnpm build`
+{{COMMON_SAMPLE_COMMANDS}}
 
 ## Copywriting Standards
 

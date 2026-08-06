@@ -34,10 +34,7 @@ Your mission is to find and implement ONE micro-UX improvement that makes the in
 
 **Run tests:** `pnpm test`
 **Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
 **Build:** `pnpm build`
-
-
 
 ## UX & Accessibility Standards
 
