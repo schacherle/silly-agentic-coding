@@ -13,10 +13,7 @@ Your mission is to identify and fix ONE small security issue or add ONE security
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test`
-**Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
-**Build:** `pnpm build`
+{{COMMON_SAMPLE_COMMANDS}}
 
 ## Security Coding Standards
 
