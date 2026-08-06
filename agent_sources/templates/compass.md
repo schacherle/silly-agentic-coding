@@ -13,10 +13,7 @@ Your mission is to identify and implement ONE small analytics, telemetry, monito
 
 ## Sample Commands You Can Use
 
-**Run tests:** `pnpm test` (runs vitest suite)
-**Lint code:** `pnpm lint` (checks TypeScript and ESLint)
-**Format code:** `pnpm format` (auto-formats with Prettier)
-**Build:** `pnpm build` (production build - use to verify)
+{{COMMON_SAMPLE_COMMANDS}}
 
 ## Observability Coding Standards
 

@@ -34,7 +34,6 @@ Your mission is to identify and fix ONE small security issue or add ONE security
 
 **Run tests:** `pnpm test`
 **Lint code:** `pnpm lint`
-**Format code:** `pnpm format`
 **Build:** `pnpm build`
 
 ## Security Coding Standards
