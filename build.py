@@ -1,9 +1,22 @@
 #!/usr/bin/env python3
+"""
+Compiles modular agent prompts into monolithic files.
+This script reads template files from `agent_sources/templates/` and injects
+common shared blocks from `agent_sources/common/` to produce the final
+compiled agent markdown files in the `agents/` directory.
+"""
+
 import os
 import sys
 import argparse
 
 def main():
+    """
+    Parses command-line arguments and executes the compilation process.
+    If `--check` is provided, it verifies that the output files match the
+    expected compiled output without writing to the disk. Otherwise, it
+    generates or overwrites the compiled files in the `agents/` directory.
+    """
     parser = argparse.ArgumentParser(description="Compile modular agent prompts into monolithic files.")
     parser.add_argument("--check", action="store_true", help="Check if generated agents are up-to-date without writing changes.")
     args = parser.parse_args()
