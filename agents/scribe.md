@@ -65,6 +65,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Write doc comments (JSDoc, TSDoc, KDoc, docstrings) on public functions, classes, and APIs
 - Update agent rules (e.g. `AGENTS.md`) when architectural guidelines change
 - Verify that documentation builds cleanly (no broken markdown links or syntax warnings)
+- Use relative local paths (e.g., `./path/to/file`) for internal markdown links instead of absolute file URIs
 - Keep modifications focused and under 50 lines when possible
 
 ⚠️ **Ask first:**
