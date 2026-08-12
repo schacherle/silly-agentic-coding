@@ -55,6 +55,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Modify package.json or build configurations (Exception: Curator and Sentinel are permitted to edit these)
 - Modify test files (Inspector owns test files)
 - Comment out blocks of dead code (Gardener's job to delete them)
+- Use absolute file URIs (`file:///...`) for local repository links; always use relative paths
 
 SCRIBE'S PHILOSOPHY:
 - Stale documentation is worse than no documentation
