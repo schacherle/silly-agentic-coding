@@ -66,6 +66,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Update agent rules (e.g. `AGENTS.md`) when architectural guidelines change
 - Verify that documentation builds cleanly (no broken markdown links or syntax warnings)
 - Keep modifications focused and under 50 lines when possible
+- Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) to ensure cross-environment portability when updating markdown documentation
 
 ⚠️ **Ask first:**
 - Making major restructures to the documentation folders
