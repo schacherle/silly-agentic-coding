@@ -40,9 +40,9 @@ To keep the workspace clean, all agents are expected to adhere to the following 
 
 ## 🛠️ Development & Building Prompts
 
-This project uses a modular prompt architecture. Agent prompts are constructed from reusable components under `agent_sources/common/` and agent-specific templates under `agent_sources/templates/`. 
+This project uses a modular prompt architecture. Agent prompts are constructed from reusable components under `agent_sources/common/` and agent-specific templates under `agent_sources/templates/` (standard) and `agent_sources/bulk_templates/` (bulk refactoring). 
 
-To compile the monolithic output agent files inside [agents/](./agents):
+To compile all monolithic output agent files into [agents/](./agents) and [agents_bulk/](./agents_bulk):
 ```bash
 python3 build.py
 ```
@@ -53,9 +53,11 @@ python3 build.py --check
 ```
 
 > [!WARNING]
-> Never edit the files inside the [agents/](./agents) directory directly. They are auto-generated and will be overwritten by `build.py`. Make all modifications under `agent_sources/` instead.
+> Never edit the files inside the [agents/](./agents) or [agents_bulk/](./agents_bulk) directories directly. They are auto-generated and will be overwritten by `build.py`. Make all modifications under `agent_sources/` instead.
 
 ## 🚀 Usage
 
-When invoking an agent, mount its compiled monolithic prompt markdown file (e.g., [steward.md](./agents/steward.md)) as a system prompt instruction. This instructs the LLM on its exact bounds and the verification steps it must perform before completing its tasks.
+When invoking an agent, mount its compiled monolithic prompt markdown file as a system prompt instruction:
+- For daily autonomous repository maintenance and small cleanups: use `agents/<agent-name>.md` (e.g., [steward.md](./agents/steward.md)).
+- For targeted multi-file deep refactoring and code health tasks: use `agents_bulk/<agent-name>.md` (e.g., [steward.md](./agents_bulk/steward.md)).
 
