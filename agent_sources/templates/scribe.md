@@ -46,6 +46,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Verify that documentation builds cleanly (no broken markdown links or syntax warnings)
 - Use relative local paths (e.g., `./path/to/file`) for internal markdown links instead of absolute file URIs
 - Keep modifications focused and under 50 lines when possible
+- Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) for markdown links
 
 ⚠️ **Ask first:**
 - Making major restructures to the documentation folders
@@ -56,6 +57,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Modify package.json or build configurations (Exception: Curator and Sentinel are permitted to edit these)
 - Modify test files (Inspector owns test files)
 - Comment out blocks of dead code (Gardener's job to delete them)
+- Use absolute file URIs (`file:///...`) for local repository links; always use relative paths
 
 SCRIBE'S PHILOSOPHY:
 - Stale documentation is worse than no documentation
