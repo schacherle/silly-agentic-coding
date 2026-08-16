@@ -76,12 +76,17 @@ def process_templates(
     output_dir: str,
     common_blocks: dict[str, str],
     check: bool,
+    display_output_dir: str = "agents",
 ) -> list[str]:
     """Process all templates and return a list of any out-of-sync template names."""
+    if not os.path.exists(templates_dir):
+        print(f"Warning: Templates directory {templates_dir} does not exist.", file=sys.stderr)
+        return []
+
     templates = sorted(f for f in os.listdir(templates_dir) if f.endswith(".md"))
     if not templates:
-        print("Warning: No templates found in templates directory.", file=sys.stderr)
-        sys.exit(0)
+        print(f"Warning: No templates found in {templates_dir}.", file=sys.stderr)
+        return []
 
     os.makedirs(output_dir, exist_ok=True)
     out_of_sync: list[str] = []
@@ -98,12 +103,12 @@ def process_templates(
         compiled_content = compile_template(content, rendered_blocks)
 
         if check:
-            if not check_output(output_path, compiled_content, template_name):
-                out_of_sync.append(template_name)
+            if not check_output(output_path, compiled_content, f"{display_output_dir}/{template_name}"):
+                out_of_sync.append(f"{display_output_dir}/{template_name}")
         else:
             with open(output_path, "w", encoding="utf-8") as out_f:
                 out_f.write(compiled_content)
-            print(f"Compiled: {template_name} -> agents/{template_name}")
+            print(f"Compiled: {template_name} -> {display_output_dir}/{template_name}")
 
     return out_of_sync
 
@@ -114,7 +119,7 @@ def main() -> None:
 
     If ``--check`` is provided, verifies that output files match the expected
     compiled output without writing to disk. Otherwise, generates or overwrites
-    compiled files in the ``agents/`` directory.
+    compiled files in the ``agents/`` and ``agents_bulk/`` directories.
     """
     parser = argparse.ArgumentParser(
         description="Compile modular agent prompts into monolithic files."
@@ -129,19 +134,52 @@ def main() -> None:
     project_root = os.path.dirname(os.path.abspath(__file__))
     sources_dir = os.path.join(project_root, "agent_sources")
     common_dir = os.path.join(sources_dir, "common")
-    templates_dir = os.path.join(sources_dir, "templates")
-    output_dir = os.path.join(project_root, "agents")
 
-    for path, name in [(common_dir, "Common directory"), (templates_dir, "Templates directory")]:
-        if not os.path.exists(path):
-            print(f"Error: {name} not found at {path}", file=sys.stderr)
-            sys.exit(1)
+    if not os.path.exists(common_dir):
+        print(f"Error: Common directory not found at {common_dir}", file=sys.stderr)
+        sys.exit(1)
 
     common_blocks = load_common_blocks(common_dir)
-    out_of_sync = process_templates(templates_dir, output_dir, common_blocks, args.check)
+
+    target_configs = [
+        {
+            "name": "Standard Agents",
+            "templates_dir": os.path.join(sources_dir, "templates"),
+            "output_dir": os.path.join(project_root, "agents"),
+            "display_output_dir": "agents",
+        },
+        {
+            "name": "Bulk Refactoring Agents",
+            "templates_dir": os.path.join(sources_dir, "bulk_templates"),
+            "output_dir": os.path.join(project_root, "agents_bulk"),
+            "display_output_dir": "agents_bulk",
+        },
+    ]
+
+    all_out_of_sync: list[str] = []
+
+    for target in target_configs:
+        templates_dir = target["templates_dir"]
+        output_dir = target["output_dir"]
+        display_dir = target["display_output_dir"]
+
+        if not os.path.exists(templates_dir):
+            if args.check:
+                print(f"Check failed: {templates_dir} does not exist.")
+                all_out_of_sync.append(templates_dir)
+            continue
+
+        out_of_sync = process_templates(
+            templates_dir,
+            output_dir,
+            common_blocks,
+            args.check,
+            display_output_dir=display_dir,
+        )
+        all_out_of_sync.extend(out_of_sync)
 
     if args.check:
-        if out_of_sync:
+        if all_out_of_sync:
             print(
                 "\nError: Some agent prompts are out-of-sync. "
                 "Please run 'python3 build.py' to compile changes.",
@@ -157,3 +195,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
