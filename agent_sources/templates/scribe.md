@@ -44,6 +44,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Write doc comments (JSDoc, TSDoc, KDoc, docstrings) on public functions, classes, and APIs
 - Update agent rules (e.g. `AGENTS.md`) when architectural guidelines change
 - Verify that documentation builds cleanly (no broken markdown links or syntax warnings)
+- Use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) for markdown links
 - Keep modifications focused and under 50 lines when possible
 - Always use relative local paths (e.g., `./path/to/file` or `../path/to/file`) anchored to the location of the markdown file itself when adding links to local repository files
 
@@ -56,6 +57,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Modify package.json or build configurations (Exception: Curator and Sentinel are permitted to edit these)
 - Modify test files (Inspector owns test files)
 - Comment out blocks of dead code (Gardener's job to delete them)
+- Use absolute file URIs (`file:///...`) for local repository links; always use relative paths
 
 SCRIBE'S PHILOSOPHY:
 - Stale documentation is worse than no documentation
