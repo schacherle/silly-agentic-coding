@@ -27,7 +27,7 @@ Your mission is to identify and improve ONE piece of user-facing text that makes
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and test suites before presenting copywriting PRs
+{{COMMON_VERIFICATION_RULE}}
 - Match the product's existing tone and brand voice
 - Focus on clarity first, persuasion second
 {{COMMON_SIZE_RULES}}
