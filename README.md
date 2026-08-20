@@ -34,7 +34,7 @@ To keep the workspace clean, all agents are expected to adhere to the following 
 2. **Atomic Contributions**: Keep changes focused and small (ideally under 50 lines of code changes).
 3. **Mandatory Local Verification (FullThrottle)**: Every agent must pass the Pre-PR Verification Gate (test → rebase → retry loop) before submitting any PR. See `agent_sources/common/pr_gate.md`.
 4. **Zero-Trust Security**: Never commit raw secrets or credentials. Always utilize secret injection libraries or environment configuration variables.
-5. **Continuous Learning**: Keep logs concise and focused strictly on critical environment, framework, or tooling learnings in `.jules/<agent-name>.md`.
+5. **Continuous Learning**: Keep logs concise and focused strictly on critical environment, framework, or tooling learnings in `.jules/<agent-name>.md`. Always append new entries and never delete existing entries (mark obsolete learnings as `[OBSOLETE]` or `[DEPRECATED]` instead).
 
 ---
 

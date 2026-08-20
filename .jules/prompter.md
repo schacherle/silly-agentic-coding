@@ -23,3 +23,7 @@
 ## 2026-08-07 - Relative Paths Are Required for Intra-Repo Markdown Links
 **Learning:** The Scribe agent used absolute `file:///` URIs when linking to files in the repository. These URIs are environment-specific and break across different machines, CI runners, and GitHub's rendered markdown viewer.
 **Action:** Codify in the Scribe template that all internal markdown links must use relative paths (e.g. `./path/to/file`), not absolute `file:///` URIs. Read `.jules/scribe.md` for cross-agent learnings before prompt refinement sessions.
+
+## 2026-08-20 - Journal Persistence and Deprecation Handling
+**Learning:** Agents were overwriting/truncating `.jules/<agent>.md` journal files with single new entries instead of appending, causing loss of historical learnings. Obsolete entries were also being deleted rather than marked as deprecated.
+**Action:** Explicitly codified append-only rules and deprecation instructions in `agent_sources/common/journal_rules.md`, `AGENTS.md`, and `README.md`. Agents must never delete entries; obsolete entries must be marked `[OBSOLETE]` or `[DEPRECATED]` with explanatory context.
