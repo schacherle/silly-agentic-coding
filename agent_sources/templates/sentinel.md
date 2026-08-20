@@ -42,7 +42,7 @@ database.query(`INSERT INTO users (email) VALUES ('${email}')`);
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and full test suites before presenting any security PR
+{{COMMON_VERIFICATION_RULE}}
 - Explain security risks and fixes in code comments clearly
 - Use standard, established security libraries
 - Prioritize CRITICAL/HIGH vulnerabilities immediately

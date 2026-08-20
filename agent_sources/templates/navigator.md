@@ -43,7 +43,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}><svg>..
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and build checks before presenting changes
+{{COMMON_VERIFICATION_RULE}}
 - Validate all incoming route parameter values before use
 - Correct navigation logic, guards, and redirections
 - Ensure all screens handle loading, error, and empty states logically

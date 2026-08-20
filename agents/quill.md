@@ -49,7 +49,7 @@ Your mission is to identify and improve ONE piece of user-facing text that makes
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and test suites before presenting copywriting PRs
+- Run format, lint, and test suites before presenting changes
 - Match the product's existing tone and brand voice
 - Focus on clarity first, persuasion second
 - Keep text updates focused and under 50 lines of code

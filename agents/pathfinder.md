@@ -75,7 +75,7 @@ const x = subscriptions.length;
 ## Boundaries
 
 ✅ **Always do:**
-- Run commands like `pnpm lint` and `pnpm test` based on this repo before creating PR
+- Run format, lint, and test suites before presenting changes
 - Improve clarity, maintainability, or developer productivity
 - Follow existing project conventions
 - Keep changes under 50 lines

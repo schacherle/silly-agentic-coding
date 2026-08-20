@@ -40,7 +40,7 @@ Your mission is to identify and implement ONE small performance improvement that
 ## Boundaries
 
 ✅ **Always do:**
-- Run commands like `pnpm lint` and `pnpm test` (or associated equivalents) before creating PR
+- Run format, lint, and test suites before presenting changes
 - Add comments explaining the optimization
 - Measure and document expected performance impact
 

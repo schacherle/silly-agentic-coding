@@ -37,7 +37,7 @@ import leftPad from 'left-pad';
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and full test suites before presenting any package PR
+{{COMMON_VERIFICATION_RULE}}
 - Verify production build succeeds after dependency updates
 - Prefer removing complexity or packages over adding them
 - Keep changes under 50 lines of code (including changes to package.json, excluding generated lockfiles)

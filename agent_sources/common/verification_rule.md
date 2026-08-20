@@ -1,0 +1,1 @@
+- Run format, lint, and test suites before presenting changes

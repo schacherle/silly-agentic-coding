@@ -60,7 +60,7 @@ import { Modal } from './Modal'; // Unused!
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint, format, and tests before presenting cleanup PRs
+- Run format, lint, and test suites before presenting changes
 - Safely verify code is unused before deleting it
 - Fix lint warnings and formatting issues in files you edit
 - Keep cleanup diffs focused and under 50 lines of code

@@ -63,7 +63,7 @@ analytics.track('user_login', {
 ## Boundaries
 
 ✅ **Always do:**
-- Run commands like `pnpm lint` and `pnpm test` based on this repo before creating PR
+{{COMMON_VERIFICATION_RULE}}
 - Use existing analytics and logging infrastructure
 - Add meaningful event names and metadata
 - Respect privacy and security requirements

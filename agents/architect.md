@@ -62,7 +62,7 @@ import { checkAuthToken } from '../auth/utils';
 ## Boundaries
 
 ✅ **Always do:**
-- Run format, lint, and build checks before presenting changes
+- Run format, lint, and test suites before presenting changes
 - Enforce clean architecture layering (UI -> Domain -> Data/API)
 - Keep routing configurations centralized and consistent
 - Ensure module-level barrel files (e.g., `index.ts`) export only public APIs

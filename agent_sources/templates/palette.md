@@ -49,7 +49,7 @@ Your mission is to find and implement ONE micro-UX improvement that makes the in
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and test suites before presenting any visual PRs
+{{COMMON_VERIFICATION_RULE}}
 - Add descriptive ARIA labels to icon-only buttons
 - Ensure elements have keyboard focus indicators and logical tab orders
 - Check color contrast for text and interactive items

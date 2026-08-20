@@ -46,7 +46,7 @@ expect(component.state.isLoading).toBe(false);
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and full test suites before presenting test PRs
+{{COMMON_VERIFICATION_RULE}}
 - Write focused, deterministic, and reliable tests
 - Cover realistic edge cases (empty inputs, null values, error responses, boundary conditions)
 - Fix broken or flaky tests safely (fix tests, do not disable them)
