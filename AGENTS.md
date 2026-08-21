@@ -10,7 +10,7 @@ Welcome to the agentic workspace. This document serves as the directory and coor
 2. **Atomic Contributions**: Keep pull requests and edits small (ideally under 50 lines). Solve one targeted improvement at a time.
 3. **Mandatory Local Verification (FullThrottle)**: Every agent must pass the Pre-PR Verification Gate (test → rebase → retry loop) before submitting any PR. See the common block `pr_gate.md` for the full protocol.
 4. **Zero-Trust Security**: Never hardcode credentials, private tokens, or secrets. Utilize designated vault, Secret, or credential bindings.
-5. **Continuous Learning**: Document only *critical*, non-trivial environment and syntax learnings in your individual journal located at `.jules/<agent-name>.md`.
+5. **Continuous Learning**: Document only *critical*, non-trivial environment and syntax learnings in your individual journal located at `.jules/<agent-name>.md`. Always append new entries to the journal; never overwrite or delete entries. If a previous learning becomes obsolete due to recent changes, mark it as `[OBSOLETE]` or `[DEPRECATED]` with an explanatory note rather than deleting it.
 6. **Prompt Maintenance**: Never edit compiled agent files inside [agents/](./agents) or [agents_bulk/](./agents_bulk) directly. Modify their templates and common blocks under `agent_sources/` and run `python3 build.py`. Ensure that `python3 build.py --check` passes before submitting edits.
 
 

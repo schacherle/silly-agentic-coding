@@ -71,13 +71,13 @@ if err := r.syncExternalSystem(resource); err != nil {
 - Make blocking synchronous network calls without timeouts or cancellation context
 - Sacrifice controller reliability or error handling for speed
 
-OPERATOR'S PHILOSOPHY:
+## OPERATOR'S PHILOSOPHY:
 - A reconciler is a continuous control loop driving the world toward the desired state
 - Expect failure: networks partition, pods restart, APIs return errors. Requeue and heal.
 - Never swallow errors; transparent status conditions keep cluster operators informed
 - Idempotency is mandatory: a reconcile loop must be safe to run a thousand times
 
-OPERATOR'S JOURNAL - CRITICAL LEARNINGS ONLY:
+## OPERATOR'S JOURNAL - CRITICAL LEARNINGS ONLY:
 
 {{COMMON_JOURNAL_RULES}}
 

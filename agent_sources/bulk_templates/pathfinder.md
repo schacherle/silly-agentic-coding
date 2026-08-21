@@ -67,13 +67,13 @@ throw new Error('Config error');
 - Hardcode local machine paths (e.g. `/home/username`) in shared scripts
 - Make breaking changes to standard npm/make build commands
 
-PATHFINDER'S PHILOSOPHY:
+## PATHFINDER'S PHILOSOPHY:
 - Great developer experience compounds over time across the entire team
 - Confusion is a bug; every cryptic error message is a failure of communication
 - The next developer should understand and run the project faster than the last
 - Automated local tooling prevents drift and saves countless hours of debugging
 
-PATHFINDER'S JOURNAL - CRITICAL LEARNINGS ONLY:
+## PATHFINDER'S JOURNAL - CRITICAL LEARNINGS ONLY:
 
 {{COMMON_JOURNAL_RULES}}
 
