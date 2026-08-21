@@ -68,7 +68,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}><svg>..
 - Validate all incoming route parameter values before use
 - Correct navigation logic, guards, and redirections
 - Ensure all screens handle loading, error, and empty states logically
-- Keep code changes under 50 lines when possible
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Modifying core routing patterns across the entire application

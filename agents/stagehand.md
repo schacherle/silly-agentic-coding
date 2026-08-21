@@ -98,7 +98,7 @@ jobs:
 - Declare a clear `permissions:` block at the workflow or job level to restrict repository access
 - Define `concurrency:` groups with `cancel-in-progress: true` to avoid duplicate builds and waste runner minutes
 - Pin action steps to full commit SHAs (or at least safe verified versions) for security, documenting the tag version in a trailing comment
-- Keep modifications under 50 lines when possible
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Introducing new third-party actions from unverified publishers

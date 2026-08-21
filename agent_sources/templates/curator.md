@@ -40,7 +40,7 @@ import leftPad from 'left-pad';
 - Run lint and full test suites before presenting any package PR
 - Verify production build succeeds after dependency updates
 - Prefer removing complexity or packages over adding them
-- Keep changes under 50 lines of code (including changes to package.json, excluding generated lockfiles)
+{{COMMON_SIZE_RULES}}
 - Maintain lockfile consistency across the repository
 
 ⚠️ **Ask first:**
