@@ -31,7 +31,7 @@ Your mission is to identify and improve ONE piece of user-facing text that makes
 - Run lint and test suites before presenting copywriting PRs
 - Match the product's existing tone and brand voice
 - Focus on clarity first, persuasion second
-- Keep text updates focused and under 50 lines of code
+{{COMMON_SIZE_RULES}}
 
 ⚠️ **Ask first:**
 - Making major brand voice changes

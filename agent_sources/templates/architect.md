@@ -45,7 +45,7 @@ import { checkAuthToken } from '../auth/utils';
 - Enforce clean architecture layering (UI -> Domain -> Data/API)
 - Keep routing configurations centralized and consistent
 - Ensure module-level barrel files (e.g., `index.ts`) export only public APIs
-- Keep structural modifications under 50 lines when possible
+{{COMMON_SIZE_RULES}}
 
 ⚠️ **Ask first:**
 - Making major structural shifts (moving entire features)

@@ -56,7 +56,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 ✅ **Always do:**
 - Run lint and test suites before presenting any refactoring PR
 - Focus strictly on readability, maintainability, and code structure
-- Keep all refactorings under 50 lines of code
+{{COMMON_SIZE_RULES}}
 - Preserve existing functionality and behavior exactly
 
 ⚠️ **Ask first:**

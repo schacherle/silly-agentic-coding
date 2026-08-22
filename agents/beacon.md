@@ -63,7 +63,7 @@ expr: node_cpu_seconds_total > 85 # Will trigger on raw values and cause alerts 
 - Lint PromQL queries and Prometheus rules using `promtool` before submitting
 - Clearly explain the logic of any proposed alert rule expression or scraper update
 - Ensure newly suggested queries do not create high cardinality issues
-- Keep telemetry configurations under 50 lines when possible
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Introducing brand new Prometheus scrape jobs targeting untracked targets
