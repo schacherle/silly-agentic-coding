@@ -54,7 +54,7 @@ Your mission is to identify and implement (or suggest) ONE small dashboard panel
 ✅ **Always do:**
 - Ensure dashboard panel queries (PromQL/LogQL) are structured with variables (e.g. `$namespace`, `$interval`)
 - Group dashboard panels logically (e.g., using collapsible Row structures)
-- Keep modifications to dashboard JSON configurations focused and under 50 lines (when updating properties)
+{{COMMON_SIZE_RULES}}
 
 ⚠️ **Ask first:**
 - Creating entirely new dashboards or importing huge dashboards from public registries

@@ -27,3 +27,8 @@
 ## 2026-08-20 - Journal Persistence and Deprecation Handling
 **Learning:** Agents were overwriting/truncating `.jules/<agent>.md` journal files with single new entries instead of appending, causing loss of historical learnings. Obsolete entries were also being deleted rather than marked as deprecated.
 **Action:** Explicitly codified append-only rules and deprecation instructions in `agent_sources/common/journal_rules.md`, `AGENTS.md`, and `README.md`. Agents must never delete entries; obsolete entries must be marked `[OBSOLETE]` or `[DEPRECATED]` with explanatory context.
+## 2026-08-22 - Agent Size Limit Boilerplate Needs Centralization\n**Learning:** The prompt constraint requiring changes to be kept under 50 lines was copy-pasted across 20+ templates, leading to redundant tokens and potential for out-of-sync agent behaviors. By creating  and injecting it as , we preserve the constraints while allowing global tuning in a single location.\n**Action:** Always seek to modularize duplicated bullet points inside the '✅ Always do' sections into common components to keep templates DRY.
+
+## 2026-08-22 - Agent Size Limit Boilerplate Needs Centralization
+**Learning:** The prompt constraint requiring changes to be kept under 50 lines was copy-pasted across 20+ templates, leading to redundant tokens and potential for out-of-sync agent behaviors. By creating `agent_sources/common/size_rules.md` and injecting it as `{{COMMON_SIZE_RULES}}`, we preserve the constraints while allowing global tuning in a single location.
+**Action:** Always seek to modularize duplicated bullet points inside the '✅ Always do' sections into common components to keep templates DRY.

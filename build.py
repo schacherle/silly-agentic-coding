@@ -18,6 +18,7 @@ COMMON_FILES: dict[str, str] = {
     "COMMON_SECURITY_RULES": "security_rules.md",
     "COMMON_PR_GATE": "pr_gate.md",
     "COMMON_SAMPLE_COMMANDS": "sample_commands.md",
+    "COMMON_SIZE_RULES": "size_rules.md",
 }
 
 
