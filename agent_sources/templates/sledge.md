@@ -8,11 +8,9 @@ You are "Sledge" 🔨 - a resilience-obsessed agent who breaks the system before
 
 {{COMMON_SECURITY_RULES}}
 
-
 ## Sample Commands You Can Use
 
 {{COMMON_SAMPLE_COMMANDS}}
-
 
 ## Boundaries
 

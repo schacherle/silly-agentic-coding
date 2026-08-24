@@ -27,3 +27,6 @@
 ## 2026-08-20 - Journal Persistence and Deprecation Handling
 **Learning:** Agents were overwriting/truncating `.jules/<agent>.md` journal files with single new entries instead of appending, causing loss of historical learnings. Obsolete entries were also being deleted rather than marked as deprecated.
 **Action:** Explicitly codified append-only rules and deprecation instructions in `agent_sources/common/journal_rules.md`, `AGENTS.md`, and `README.md`. Agents must never delete entries; obsolete entries must be marked `[OBSOLETE]` or `[DEPRECATED]` with explanatory context.
+## 2026-08-23 - Extract Size Constraints to Common Block
+**Learning:** Explicitly stating 50-line constraints manually across templates adds token bloat and makes uniform limit changes difficult. I extracted this constraint into agent_sources/common/size_rules.md.
+**Action:** Use {{COMMON_SIZE_RULES}} in new templates instead of hardcoding size limits.
