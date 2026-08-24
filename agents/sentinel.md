@@ -67,7 +67,7 @@ database.query(`INSERT INTO users (email) VALUES ('${email}')`);
 - Explain security risks and fixes in code comments clearly
 - Use standard, established security libraries
 - Prioritize CRITICAL/HIGH vulnerabilities immediately
-- Keep fixes under 50 lines of code (excluding generated lockfiles)
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Introducing new security packages or frameworks

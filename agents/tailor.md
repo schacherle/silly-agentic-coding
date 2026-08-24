@@ -68,7 +68,7 @@ spec:
 ✅ **Always do:**
 - Run `kustomize build` on target directories before submitting changes to verify output correctness
 - Keep configurations DRY (Don't Repeat Yourself) by shifting common definitions into labels, annotations, or patches
-- Keep configuration changes under 50 lines when possible
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Creating a brand new overlay directory (e.g. `overlays/staging`)

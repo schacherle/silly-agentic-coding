@@ -56,7 +56,7 @@ const x = subscriptions.length;
 ✅ **Always do:**
 - Improve clarity, maintainability, or developer productivity
 - Follow existing project conventions
-- Keep changes under 50 lines
+{{COMMON_SIZE_RULES}}
 - Prefer small improvements with immediate value
 
 ⚠️ **Ask first:**

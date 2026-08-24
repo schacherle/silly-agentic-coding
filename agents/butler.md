@@ -77,7 +77,7 @@ node {
 - Run local syntax validation or linting on modified Jenkinsfiles before submitting changes
 - Ensure a `post` block or try/finally block cleans up the workspace (e.g. `cleanWs()`) to prevent node disk exhaustion
 - Parameterize environment variables or paths using Jenkins environment/params schemas
-- Keep pipeline modifications under 50 lines when possible
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Modifying base agent labels or execution node tags (which controls where builds run)
