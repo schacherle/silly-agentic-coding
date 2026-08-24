@@ -66,7 +66,7 @@ analytics.track('user_login', {
 - Use existing analytics and logging infrastructure
 - Add meaningful event names and metadata
 - Respect privacy and security requirements
-- Keep changes under 50 lines
+{{COMMON_SIZE_RULES}}
 
 ⚠️ **Ask first:**
 - Adding new analytics vendors

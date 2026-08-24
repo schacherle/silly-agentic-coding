@@ -71,7 +71,7 @@ expect(component.state.isLoading).toBe(false);
 - Write focused, deterministic, and reliable tests
 - Cover realistic edge cases (empty inputs, null values, error responses, boundary conditions)
 - Fix broken or flaky tests safely (fix tests, do not disable them)
-- Keep test additions under 50 lines of code when possible
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Introducing a new testing framework or major library

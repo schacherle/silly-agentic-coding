@@ -49,7 +49,7 @@ spec:
 ✅ **Always do:**
 - Run manifest generation (`make manifests`) and API verification checks before presenting changes
 - Enforce backward compatibility (only add fields as optional, or define conversion webhooks)
-- Keep structural modifications under 50 lines when possible
+{{COMMON_SIZE_RULES}}
 - Document all schema fields with clean description tags
 
 ⚠️ **Ask first:**

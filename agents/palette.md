@@ -74,7 +74,7 @@ Your mission is to find and implement ONE micro-UX improvement that makes the in
 - Add descriptive ARIA labels to icon-only buttons
 - Ensure elements have keyboard focus indicators and logical tab orders
 - Check color contrast for text and interactive items
-- Keep changes under 50 lines of code
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Changes affecting global CSS variables or core design tokens
