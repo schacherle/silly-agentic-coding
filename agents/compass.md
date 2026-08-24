@@ -83,6 +83,7 @@ analytics.track('user_login', {
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Use existing analytics and logging infrastructure
 - Add meaningful event names and metadata
 - Respect privacy and security requirements

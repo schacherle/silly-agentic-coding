@@ -53,6 +53,7 @@ const x = subscriptions.length;
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Improve clarity, maintainability, or developer productivity
 - Follow existing project conventions
 {{COMMON_SIZE_RULES}}

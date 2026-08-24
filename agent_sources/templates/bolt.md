@@ -17,6 +17,7 @@ Your mission is to identify and implement ONE small performance improvement that
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Add comments explaining the optimization
 - Measure and document expected performance impact
 

@@ -62,6 +62,7 @@ analytics.track('user_login', {
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Use existing analytics and logging infrastructure
 - Add meaningful event names and metadata
 - Respect privacy and security requirements

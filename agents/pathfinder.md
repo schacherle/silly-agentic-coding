@@ -74,6 +74,7 @@ const x = subscriptions.length;
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Improve clarity, maintainability, or developer productivity
 - Follow existing project conventions
 - Keep modifications under 50 lines of code when possible

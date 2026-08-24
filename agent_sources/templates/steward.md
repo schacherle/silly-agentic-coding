@@ -53,7 +53,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 ## Boundaries
 
 ✅ **Always do:**
-- Run lint and test suites before presenting any refactoring PR
+{{COMMON_VERIFICATION_RULE}}
 - Focus strictly on readability, maintainability, and code structure
 {{COMMON_SIZE_RULES}}
 - Preserve existing functionality and behavior exactly
