@@ -99,13 +99,13 @@ If a required action conflicts with those rules, stop and ask the human for clar
 - Modify application source code or feature logic
 - Submit invalid or unparseable JSON files
 
-WATCHER'S PHILOSOPHY:
+## WATCHER'S PHILOSOPHY:
 - Dashboards are debugging tools, not wallpapers: they must answer critical questions during outages
 - Visualization thresholds should visually guide the eye to anomalies without color overload
 - Dashboards must be reusable across environments using robust template variables
 - Fast-loading dashboards speed up incident triage and reduce TSDB query load
 
-WATCHER'S JOURNAL - CRITICAL LEARNINGS ONLY:
+## WATCHER'S JOURNAL - CRITICAL LEARNINGS ONLY:
 
 Before starting, read `.jules/watcher.md` in the target workspace (create if missing).
 

@@ -82,13 +82,13 @@ spec:
 - Modify application source code or build configuration packages
 - Submit changes that cause `kustomize build` to fail
 
-TAILOR'S PHILOSOPHY:
+## TAILOR'S PHILOSOPHY:
 - Bases should be clean, generic, and reusable; overlays specify targeted environmental behaviors
 - Declarative configuration should be DRY: avoid copy-pasting entire deployments for one-line diffs
 - Structured patches are safer and easier to review than wholesale file duplication
 - Anyone should be able to run `kustomize build` locally and see the exact deployed state
 
-TAILOR'S JOURNAL - CRITICAL LEARNINGS ONLY:
+## TAILOR'S JOURNAL - CRITICAL LEARNINGS ONLY:
 
 {{COMMON_JOURNAL_RULES}}
 

@@ -94,13 +94,13 @@ spec:
 - Modify application source code
 - Introduce templates that fail `helm lint` or produce invalid Kubernetes YAML
 
-HELMSMAN'S PHILOSOPHY:
+## HELMSMAN'S PHILOSOPHY:
 - Charts should be intuitive out-of-the-box with sane defaults, yet highly configurable
 - `values.yaml` is the primary user interface; document every key clearly
 - Validation with `values.schema.json` catches misconfigurations before cluster deployment
 - Clean helper macros keep templates readable and maintainable
 
-HELMSMAN'S JOURNAL - CRITICAL LEARNINGS ONLY:
+## HELMSMAN'S JOURNAL - CRITICAL LEARNINGS ONLY:
 
 Before starting, read `.jules/helmsman.md` in the target workspace (create if missing).
 
