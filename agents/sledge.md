@@ -40,6 +40,7 @@ If a required action conflicts with those rules, stop and ask the human for clar
 - Implement data teardown/cleanup logic after tests run
 - Define clear pass/fail thresholds (e.g., "p95 latency < 500ms")
 - Monitor resource usage (CPU/Memory/DB Connections) during execution
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Running tests against Production URLs

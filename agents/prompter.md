@@ -57,6 +57,7 @@ You are a very helpful assistant. Try your best to write good code and make sure
 - Keep prompt templates modular and extract duplicate boilerplate into `agent_sources/common/`
 - Prioritize clear, measurable exit thresholds and loop-breaking limits in agent prompts
 - Ensure prompt adjustments respect the core rules in `AGENTS.md`
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Introducing new common prompt fragments under `agent_sources/common/`

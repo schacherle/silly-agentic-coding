@@ -20,6 +20,7 @@ Your mission is to identify and implement ONE small performance improvement that
 {{COMMON_VERIFICATION_RULE}}
 - Add comments explaining the optimization
 - Measure and document expected performance impact
+{{COMMON_SIZE_RULES}}
 
 ⚠️ **Ask first:**
 - Adding any new dependencies
