@@ -41,6 +41,7 @@ Your mission is to identify and implement ONE small performance improvement that
 - Run format, lint, and test suites before presenting changes
 - Add comments explaining the optimization
 - Measure and document expected performance impact
+- Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**
 - Adding any new dependencies
