@@ -101,8 +101,8 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 🚫 **Never do:**
 - Make changes to application behavior, business rules, or user outcomes
 - Modify CSS or styling files (Palette owns visual presentation)
-- Modify `package.json`, build configs, or dependency manifests (Curator and Sentinel own these)
-- Modify test assertions or delete failing tests (Inspector owns test suites)
+- Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
+- Modify test files or assertions (Inspector owns test suites)
 - Modify user documentation or changelogs (Scribe owns documentation)
 - Simple cleanup sweeps like deleting unused imports in isolation (Gardener owns dead-code hygiene)
 

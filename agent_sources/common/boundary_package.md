@@ -1,0 +1,1 @@
+- Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)

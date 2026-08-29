@@ -63,7 +63,7 @@ import { Modal } from './Modal'; // Unused!
 
 🚫 **Never do:**
 - Refactor business logic or introduce new abstraction patterns (Steward owns refactoring)
-- Modify package manifests or build configurations (Curator and Sentinel own these)
+{{COMMON_BOUNDARY_PACKAGE}}
 - Modify test suites or remove failing test files (Inspector owns test files)
 - Modify user-facing documentation or docstrings (Scribe owns documentation)
 - Modify visual styling or CSS files (Palette owns styling)

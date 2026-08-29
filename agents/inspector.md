@@ -78,7 +78,7 @@ expect(component.state.isLoading).toBe(false);
 
 🚫 **Never do:**
 - Edit application source code (you must only edit test files; if a bug is found in app code, report it via TODO comments or issues; you are not permitted to change app logic)
-- Modify package.json or build configurations (Exception: Curator and Sentinel are permitted to edit these)
+- Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify documentation, READMEs, or doc comments (Scribe owns documentation)
 - Add flaky, timing-dependent tests that fail randomly
 

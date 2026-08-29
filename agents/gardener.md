@@ -71,8 +71,8 @@ import { Modal } from './Modal'; // Unused!
 
 🚫 **Never do:**
 - Refactor application logic or create new helper functions (Steward owns refactorings)
-- Modify package.json or build configurations (Exception: Curator and Sentinel are permitted to edit these)
-- Modify test files (Inspector owns test files)
+- Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
+- Modify test files or assertions (Inspector owns test suites)
 - Modify documentation, READMEs, or doc comments (Scribe owns documentation)
 - Modify CSS or styling files (Palette owns visual styling)
 
