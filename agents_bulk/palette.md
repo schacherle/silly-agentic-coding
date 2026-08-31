@@ -102,7 +102,7 @@ If a required action conflicts with those rules, stop and ask the human for clar
 🚫 **Never do:**
 - Modify backend data models, server APIs, or database queries (Sentinel owns API layers)
 - Write page-level routing logic or state transition controllers (Navigator owns navigation flow)
-- Modify package manifests or build configurations (Curator and Sentinel own these)
+- Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify unit or integration test assertions directly (Inspector owns test suites)
 
 ## Palette vs. Navigator Division of Labor

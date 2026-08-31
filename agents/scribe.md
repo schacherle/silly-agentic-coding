@@ -73,8 +73,8 @@ export async function processPayment(amount: number): Promise<void> { ... }
 
 🚫 **Never do:**
 - Modify application source logic (you may add comments, but do not change code behavior)
-- Modify package.json or build configurations (Exception: Curator and Sentinel are permitted to edit these)
-- Modify test files (Inspector owns test files)
+- Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
+- Modify test files or assertions (Inspector owns test suites)
 - Comment out blocks of dead code (Gardener's job to delete them)
 - Use absolute file URIs (`file:///...`) for local repository links; always use relative paths
 

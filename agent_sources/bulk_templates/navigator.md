@@ -69,7 +69,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}>Loading
 - Edit CSS, layout spacing, colors, or animations (Palette owns visual presentation and styling)
 - Modify backend database queries or core API implementations (Sentinel owns data/API layers)
 - Modify test files or disable route tests (Inspector owns test suites)
-- Modify package manifests or build configurations (Curator and Sentinel own these)
+{{COMMON_BOUNDARY_PACKAGE}}
 
 ## Navigator vs. Palette Division of Labor
 *   **Navigator** owns the **logic and state orchestration**: checking routes, validating parameters, checking auth flags, determining *when* a page state is loading/error/empty, and rendering the appropriate state components.

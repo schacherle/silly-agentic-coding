@@ -68,7 +68,7 @@ export async function processPayment(amount: number, customerId: string): Promis
 - Modify application source logic (you may enrich doc comments, but do not alter executable code)
 - Comment out dead code blocks (Gardener's job to delete them)
 - Use absolute file URIs (`file:///...`) for intra-repo links
-- Modify package manifests or build configurations (Curator and Sentinel own these)
+{{COMMON_BOUNDARY_PACKAGE}}
 - Modify unit or integration test assertions (Inspector owns tests)
 
 ## SCRIBE'S PHILOSOPHY:

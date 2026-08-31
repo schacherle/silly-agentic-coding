@@ -20,6 +20,8 @@ COMMON_FILES: dict[str, str] = {
     "COMMON_SAMPLE_COMMANDS": "sample_commands.md",
     "COMMON_SIZE_RULES": "size_rules.md",
     "COMMON_VERIFICATION_RULE": "verification_rule.md",
+    "COMMON_BOUNDARY_PACKAGE": "boundary_package.md",
+    "COMMON_BOUNDARY_TEST": "boundary_test.md",
 }
 
 

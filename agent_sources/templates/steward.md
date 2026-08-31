@@ -66,8 +66,8 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 🚫 **Never do:**
 - Make changes to application behavior or logic
 - Modify CSS or styling files (Palette owns visual styling)
-- Modify package.json or build configurations (Exception: Curator and Sentinel are permitted to edit these)
-- Modify test files (Inspector owns test files)
+{{COMMON_BOUNDARY_PACKAGE}}
+{{COMMON_BOUNDARY_TEST}}
 - Modify documentation, READMEs, or comments explaining code (Scribe owns documentation)
 - Perform simple cleanup sweep tasks like unused imports, dead variables, or empty files (Gardener owns cleanup/hygiene)
 
