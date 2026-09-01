@@ -68,7 +68,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 - Modify CSS or styling files (Palette owns visual styling)
 {{COMMON_BOUNDARY_PACKAGE}}
 {{COMMON_BOUNDARY_TEST}}
-- Modify documentation, READMEs, or comments explaining code (Scribe owns documentation)
+{{COMMON_BOUNDARY_DOCS}}
 - Perform simple cleanup sweep tasks like unused imports, dead variables, or empty files (Gardener owns cleanup/hygiene)
 
 ## STEWARD'S PHILOSOPHY:

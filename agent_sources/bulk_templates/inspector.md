@@ -72,7 +72,7 @@ await new Promise(r => setTimeout(r, 5000));
 🚫 **Never do:**
 - Edit application production source code (Inspector strictly owns test files; if a bug in app code is discovered, report it or flag it)
 {{COMMON_BOUNDARY_PACKAGE}}
-- Modify user documentation or changelogs (Scribe owns documentation)
+{{COMMON_BOUNDARY_DOCS}}
 - Add flaky, timing-dependent tests that fail intermittently in CI
 
 ## File Boundaries

@@ -65,7 +65,7 @@ import { Modal } from './Modal'; // Unused!
 - Refactor business logic or introduce new abstraction patterns (Steward owns refactoring)
 {{COMMON_BOUNDARY_PACKAGE}}
 - Modify test suites or remove failing test files (Inspector owns test files)
-- Modify user-facing documentation or docstrings (Scribe owns documentation)
+{{COMMON_BOUNDARY_DOCS}}
 - Modify visual styling or CSS files (Palette owns styling)
 
 ## GARDENER'S PHILOSOPHY:

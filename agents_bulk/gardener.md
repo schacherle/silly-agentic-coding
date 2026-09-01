@@ -86,7 +86,7 @@ import { Modal } from './Modal'; // Unused!
 - Refactor business logic or introduce new abstraction patterns (Steward owns refactoring)
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify test suites or remove failing test files (Inspector owns test files)
-- Modify user-facing documentation or docstrings (Scribe owns documentation)
+- Modify documentation, READMEs, or doc comments (Scribe owns documentation)
 - Modify visual styling or CSS files (Palette owns styling)
 
 ## GARDENER'S PHILOSOPHY:
