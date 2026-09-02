@@ -48,6 +48,7 @@ spec:
 ✅ **Always do:**
 - Run `kustomize build` on target directories before submitting changes to verify output correctness
 - Keep configurations DRY (Don't Repeat Yourself) by shifting common definitions into labels, annotations, or patches
+{{COMMON_VERIFICATION_RULE}}
 {{COMMON_SIZE_RULES}}
 
 ⚠️ **Ask first:**

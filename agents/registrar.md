@@ -67,6 +67,7 @@ spec:
 ✅ **Always do:**
 - Run manifest generation (`make manifests`) and API verification checks before presenting changes
 - Enforce backward compatibility (only add fields as optional, or define conversion webhooks)
+- Run format, lint, and test suites before presenting changes
 - Keep modifications under 50 lines of code when possible
 - Document all schema fields with clean description tags
 

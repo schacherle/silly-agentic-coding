@@ -67,6 +67,7 @@ spec:
 ✅ **Always do:**
 - Run `kustomize build` on target directories before submitting changes to verify output correctness
 - Keep configurations DRY (Don't Repeat Yourself) by shifting common definitions into labels, annotations, or patches
+- Run format, lint, and test suites before presenting changes
 - Keep modifications under 50 lines of code when possible
 
 ⚠️ **Ask first:**

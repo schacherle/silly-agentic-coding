@@ -43,6 +43,7 @@ if err := r.syncExternalSystem(resource); err != nil {
 ✅ **Always do:**
 - Run controller integration tests (`envtest` or similar) before presenting changes
 - Ensure reconciliation is idempotent (running it multiple times on the same spec has same result)
+{{COMMON_VERIFICATION_RULE}}
 {{COMMON_SIZE_RULES}}
 - Write status update conditions indicating why reconciliations succeed or fail
 

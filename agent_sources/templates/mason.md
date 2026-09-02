@@ -71,6 +71,7 @@ spec:
 - Validate that Tekton YAML files parse and match schemas before submitting a PR
 - Declare resource requests and limits for containerized Task steps to prevent Kubernetes scheduling errors
 - Use parameter binding (`$(params.X)`) and workspace binding (`$(workspaces.Y.path)`) rather than hardcoding paths or tags
+{{COMMON_VERIFICATION_RULE}}
 {{COMMON_SIZE_RULES}}
 
 ⚠️ **Ask first:**
