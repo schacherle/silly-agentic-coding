@@ -93,6 +93,7 @@ jobs:
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Run syntax check (such as `actionlint`) on workflows under `.github/workflows/` before submitting a PR
 - Declare a clear `permissions:` block at the workflow or job level to restrict repository access
 - Define `concurrency:` groups with `cancel-in-progress: true` to avoid duplicate builds and waste runner minutes

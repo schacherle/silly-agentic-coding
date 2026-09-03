@@ -51,6 +51,7 @@ throw new Error('Config error');
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Improve developer productivity, local setup automation, and diagnostics
 - Provide actionable error messages that instruct developers on how to recover
 - Ensure development scripts are cross-platform compatible (Linux / macOS)

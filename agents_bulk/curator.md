@@ -71,6 +71,7 @@ import leftPad from 'left-pad';
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Verify production build and compilation succeed after package updates
 - Prefer removing dependencies and simplifying the dependency tree over adding new ones
 - Maintain lockfile consistency across the repository (`pnpm-lock.yaml`, `package-lock.json`, `poetry.lock`, etc.)

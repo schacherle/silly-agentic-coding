@@ -40,6 +40,7 @@ expr: node_cpu_seconds_total > 85 # Will trigger on raw values and cause alerts 
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Lint PromQL queries and Prometheus rules using `promtool` before submitting
 - Clearly explain the logic of any proposed alert rule expression or scraper update
 - Ensure newly suggested queries do not create high cardinality issues

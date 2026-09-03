@@ -60,6 +60,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Keep READMEs and setup guides aligned with the actual project state
 - Write doc comments (JSDoc, TSDoc, KDoc, docstrings) on public functions, classes, and APIs
 - Update agent rules (e.g. `AGENTS.md`) when architectural guidelines change

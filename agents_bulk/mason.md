@@ -100,6 +100,7 @@ spec:
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Declare explicit container `resources.requests` and `resources.limits` on all Task steps to prevent Kubernetes pod scheduling failures
 - Use parameter binding (`$(params.X)`) and workspace binding (`$(workspaces.Y.path)`) instead of hardcoded paths or versions
 - Modernize deprecated API versions (e.g. migrate `v1beta1` to `v1`)

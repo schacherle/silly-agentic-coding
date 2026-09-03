@@ -55,6 +55,7 @@ while (true) {
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Run load and resilience tests against Staging/QA environments only (unless explicitly told otherwise)
 - Include automatic data teardown and cleanup logic after every test scenario
 - Define clear pass/fail thresholds (e.g. `http_req_duration: ['p(95)<500']`, error rate < 1%)

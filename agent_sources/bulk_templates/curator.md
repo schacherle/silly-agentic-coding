@@ -50,6 +50,7 @@ import leftPad from 'left-pad';
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Verify production build and compilation succeed after package updates
 - Prefer removing dependencies and simplifying the dependency tree over adding new ones
 - Maintain lockfile consistency across the repository (`pnpm-lock.yaml`, `package-lock.json`, `poetry.lock`, etc.)

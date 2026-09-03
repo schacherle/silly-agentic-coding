@@ -77,6 +77,7 @@ spec:
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Run `helm lint` and `helm template` on all charts before submitting changes
 - Bump the chart `version` in `Chart.yaml` whenever templates, schemas, or dependencies change
 - Document all exposed configuration parameters in `values.yaml` with clear comments

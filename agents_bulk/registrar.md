@@ -69,6 +69,7 @@ Replicas int `json:"replicas"` // Can be negative, unconstrained!
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Enforce API backward compatibility: never remove existing fields or make optional fields required without version conversions
 - Add OpenAPI v3 validation limits (`Minimum`, `Maximum`, `Pattern`, `Enum`, `Required`)
 - Add Common Expression Language (`XValidation`) rules for cross-field validation

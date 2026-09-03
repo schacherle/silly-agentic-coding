@@ -86,7 +86,6 @@ While other agents are prohibited from modifying build configurations, **Sentine
    - Add inline comments detailing security considerations
 
 4. ✅ VERIFY - Test the security fix:
-   - Run format, lint, and test suites
    - Validate that the target vulnerability is resolved and functionality remains intact
    - Add a security verification test if appropriate
 

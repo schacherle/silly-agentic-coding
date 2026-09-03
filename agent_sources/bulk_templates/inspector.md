@@ -59,6 +59,7 @@ await new Promise(r => setTimeout(r, 5000));
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Write deterministic, isolated, and reliable tests that avoid flaky sleep timers
 - Test actual behavior, contracts, and boundary conditions (nulls, empty lists, error codes)
 - Fix broken or flaky tests at root cause (never disable or comment out failing tests)

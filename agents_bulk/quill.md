@@ -63,6 +63,7 @@ If a required action conflicts with those rules, stop and ask the human for clar
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Match the product's tone, brand voice, and domain terminology consistently
 - Ensure all error messages provide clear explanations and actionable next steps
 - Ensure empty states provide encouraging guidance with clear calls-to-action

@@ -30,3 +30,7 @@
 ## 2026-08-23 - Extract Size Constraints to Common Block
 **Learning:** Explicitly stating 50-line constraints manually across templates adds token bloat and makes uniform limit changes difficult. I extracted this constraint into agent_sources/common/size_rules.md.
 **Action:** Use {{COMMON_SIZE_RULES}} in new templates instead of hardcoding size limits.
+
+## 2026-08-31 - Ensure New Common Rules Are Defined and Added
+**Learning:** When introducing a new `{{COMMON_*}}` variable in `agent_sources/templates` and `agent_sources/bulk_templates`, it is crucial to ensure that the variable itself is defined in a new file under `agent_sources/common/`, and that this new file is staged and committed with `git add`. Failing to do so causes the prompt compilation script (`build.py`) to break or improperly compile the monoliths with unresolved template variables.
+**Action:** Always verify that newly created common template files (e.g., `agent_sources/common/verification_rule.md`) are explicitly added to the Git staging area before submitting changes.
