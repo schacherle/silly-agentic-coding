@@ -83,6 +83,7 @@ If a required action conflicts with those rules, stop and ask the human for clar
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Ensure all dashboard panel queries utilize template variables (`$namespace`, `$cluster`, `$service`, `$__rate_interval`)
 - Group dashboard panels logically using collapsible Row panels for performance and readability
 - Define strategic, intuitive color thresholds for gauges and timeseries graphs

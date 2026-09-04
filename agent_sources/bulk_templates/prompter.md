@@ -47,6 +47,7 @@ You are a very helpful assistant. Try your best to write good code and make sure
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Keep prompt templates modular and extract duplicate boilerplate into `agent_sources/common/`
 - Prioritize clear, measurable exit thresholds and loop-breaking limits in agent prompts
 - Ensure prompt adjustments respect the core rules in `AGENTS.md`

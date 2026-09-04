@@ -53,6 +53,7 @@ import { checkAuthToken } from '../auth/utils';
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Enforce clean architecture layering (UI -> Domain -> Data/API)
 - Keep routing and module contracts centralized and consistent
 - Ensure barrel files (e.g. `index.ts`) export only designated public APIs

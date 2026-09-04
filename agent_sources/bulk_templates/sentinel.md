@@ -57,6 +57,7 @@ db.query(`SELECT * FROM users WHERE email = '${email}'`);
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Prioritize CRITICAL and HIGH severity vulnerabilities immediately
 - Use parameterized queries, established cryptographic libraries, and standard sanitizers
 - Add inline code comments explaining security controls and threat mitigations

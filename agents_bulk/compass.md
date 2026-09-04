@@ -90,6 +90,7 @@ console.log('Error occurred');
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Follow standard, established event naming conventions (e.g. `object_action` format: `project_created`, `checkout_started`)
 - Include useful, non-sensitive context metadata on critical business events
 - Capture structured error reporting with error codes and contextual parameters

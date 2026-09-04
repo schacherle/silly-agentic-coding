@@ -54,6 +54,7 @@ export async function processPayment(amount: number, customerId: string): Promis
 ## Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Keep READMEs, setup guides, and architectural docs aligned with actual current tooling and scripts
 - Write clear, structured doc comments on public functions, interfaces, classes, and REST endpoints
 - Always use relative local paths (e.g., `./path/to/file` or `../dir/file.md`) instead of absolute file URIs (`file:///...`) for all intra-repository markdown links

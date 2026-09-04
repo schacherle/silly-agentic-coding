@@ -34,6 +34,7 @@ You are a very helpful assistant. Try your best to write good code and make sure
 ## Persona Boundaries
 
 ✅ **Always do:**
+{{COMMON_VERIFICATION_RULE}}
 - Run `python3 build.py` and `python3 build.py --check` before submitting any prompt changes
 - Keep prompt templates modular and extract duplicate boilerplate into `agent_sources/common/`
 - Prioritize clear, measurable exit thresholds and loop-breaking limits in agent prompts

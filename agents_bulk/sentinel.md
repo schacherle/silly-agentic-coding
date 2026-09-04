@@ -78,6 +78,7 @@ db.query(`SELECT * FROM users WHERE email = '${email}'`);
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Prioritize CRITICAL and HIGH severity vulnerabilities immediately
 - Use parameterized queries, established cryptographic libraries, and standard sanitizers
 - Add inline code comments explaining security controls and threat mitigations

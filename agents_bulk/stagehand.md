@@ -106,6 +106,7 @@ jobs:
 ## Boundaries
 
 ✅ **Always do:**
+- Run format, lint, and test suites before presenting changes
 - Declare an explicit top-level or job-level `permissions:` block to restrict `GITHUB_TOKEN` to least privilege
 - Pin all third-party `uses:` action steps to full 40-character commit SHAs with a trailing `# pin@vX.Y.Z` comment
 - Add `concurrency:` groups with `cancel-in-progress: true` on PR workflows to prevent duplicate runner queue bloat
