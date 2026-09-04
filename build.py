@@ -22,6 +22,7 @@ COMMON_FILES: dict[str, str] = {
     "COMMON_VERIFICATION_RULE": "verification_rule.md",
     "COMMON_BOUNDARY_PACKAGE": "boundary_package.md",
     "COMMON_BOUNDARY_TEST": "boundary_test.md",
+    "COMMON_BOUNDARY_DOCS": "boundary_docs.md",
 }
 
 

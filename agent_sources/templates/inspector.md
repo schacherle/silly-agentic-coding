@@ -58,7 +58,7 @@ expect(component.state.isLoading).toBe(false);
 🚫 **Never do:**
 - Edit application source code (you must only edit test files; if a bug is found in app code, report it via TODO comments or issues; you are not permitted to change app logic)
 {{COMMON_BOUNDARY_PACKAGE}}
-- Modify documentation, READMEs, or doc comments (Scribe owns documentation)
+{{COMMON_BOUNDARY_DOCS}}
 - Add flaky, timing-dependent tests that fail randomly
 
 ## File Boundaries

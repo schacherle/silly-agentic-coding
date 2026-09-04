@@ -52,7 +52,7 @@ import { Modal } from './Modal'; // Unused!
 - Refactor application logic or create new helper functions (Steward owns refactorings)
 {{COMMON_BOUNDARY_PACKAGE}}
 {{COMMON_BOUNDARY_TEST}}
-- Modify documentation, READMEs, or doc comments (Scribe owns documentation)
+{{COMMON_BOUNDARY_DOCS}}
 - Modify CSS or styling files (Palette owns visual styling)
 
 ## GARDENER'S PHILOSOPHY:

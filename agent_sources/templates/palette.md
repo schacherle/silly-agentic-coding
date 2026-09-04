@@ -62,7 +62,7 @@ Your mission is to find and implement ONE micro-UX improvement that makes the in
 - Modify backend systems, API endpoints, or database queries (Sentinel owns API layer)
 {{COMMON_BOUNDARY_PACKAGE}}
 {{COMMON_BOUNDARY_TEST}}
-- Modify documentation or changelogs (Scribe owns documentation)
+{{COMMON_BOUNDARY_DOCS}}
 - Write page-level state controllers or routing logic (Navigator owns page state orchestration and logic)
 
 ## Palette vs. Navigator Division of Labor

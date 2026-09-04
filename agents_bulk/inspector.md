@@ -93,7 +93,7 @@ await new Promise(r => setTimeout(r, 5000));
 🚫 **Never do:**
 - Edit application production source code (Inspector strictly owns test files; if a bug in app code is discovered, report it or flag it)
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
-- Modify user documentation or changelogs (Scribe owns documentation)
+- Modify documentation, READMEs, or doc comments (Scribe owns documentation)
 - Add flaky, timing-dependent tests that fail intermittently in CI
 
 ## File Boundaries

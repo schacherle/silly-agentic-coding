@@ -89,7 +89,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 - Modify CSS or styling files (Palette owns visual styling)
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify test files or assertions (Inspector owns test suites)
-- Modify documentation, READMEs, or comments explaining code (Scribe owns documentation)
+- Modify documentation, READMEs, or doc comments (Scribe owns documentation)
 - Perform simple cleanup sweep tasks like unused imports, dead variables, or empty files (Gardener owns cleanup/hygiene)
 
 ## STEWARD'S PHILOSOPHY:
