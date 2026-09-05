@@ -1,0 +1,1 @@
+- Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) for all intra-repository markdown links

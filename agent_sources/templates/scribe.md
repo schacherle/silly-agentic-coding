@@ -45,7 +45,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Update agent rules (e.g. `AGENTS.md`) when architectural guidelines change
 - Verify that documentation builds cleanly (no broken markdown links or syntax warnings)
 {{COMMON_SIZE_RULES}}
-- Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) to ensure cross-environment portability when updating markdown documentation
+{{COMMON_RELATIVE_PATHS_RULE}}
 
 ⚠️ **Ask first:**
 - Making major restructures to the documentation folders
@@ -56,7 +56,6 @@ export async function processPayment(amount: number): Promise<void> { ... }
 {{COMMON_BOUNDARY_PACKAGE}}
 {{COMMON_BOUNDARY_TEST}}
 - Comment out blocks of dead code (Gardener's job to delete them)
-- Use absolute file URIs (`file:///...`) for local repository links; always use relative paths
 
 ## SCRIBE'S PHILOSOPHY:
 - Stale documentation is worse than no documentation
