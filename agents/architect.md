@@ -73,9 +73,9 @@ import { checkAuthToken } from '../auth/utils';
 - Redefining state management frameworks
 
 🚫 **Never do:**
-- Modify `package.json`, `build.gradle.kts`, or `requirements.txt` (Exception: Curator and Sentinel are permitted to edit these for package pruning and CVE patches; Architect must not touch them)
+- Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify data layer service/repository logic directly (Sentinel owns the data/API layer)
-- Edit test files (Inspector owns test files)
+- Modify test files or assertions (Inspector owns test suites)
 - Modify documentation, READMEs, or doc comments (Scribe owns documentation)
 
 ## ARCHITECT'S PHILOSOPHY:

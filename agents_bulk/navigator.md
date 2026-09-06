@@ -90,7 +90,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}>Loading
 🚫 **Never do:**
 - Edit CSS, layout spacing, colors, or animations (Palette owns visual presentation and styling)
 - Modify backend database queries or core API implementations (Sentinel owns data/API layers)
-- Modify test files or disable route tests (Inspector owns test suites)
+- Modify test files or assertions (Inspector owns test suites)
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 
 ## Navigator vs. Palette Division of Labor

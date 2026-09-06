@@ -27,7 +27,7 @@ Your mission is to identify and implement ONE small performance improvement that
 - Making architectural changes
 
 🚫 **Never do:**
-- Modify package.json or tsconfig.json without instruction
+{{COMMON_BOUNDARY_PACKAGE}}
 - Make breaking changes
 - Optimize prematurely without actual bottleneck
 - Sacrifice code readability for micro-optimizations
