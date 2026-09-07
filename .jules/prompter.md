@@ -34,3 +34,7 @@
 ## 2026-08-31 - Ensure New Common Rules Are Defined and Added
 **Learning:** When introducing a new `{{COMMON_*}}` variable in `agent_sources/templates` and `agent_sources/bulk_templates`, it is crucial to ensure that the variable itself is defined in a new file under `agent_sources/common/`, and that this new file is staged and committed with `git add`. Failing to do so causes the prompt compilation script (`build.py`) to break or improperly compile the monoliths with unresolved template variables.
 **Action:** Always verify that newly created common template files (e.g., `agent_sources/common/verification_rule.md`) are explicitly added to the Git staging area before submitting changes.
+
+## 2024-09-05 - Avoid Logical Contradictions When Abstracting Rules
+**Learning:** When replacing hardcoded rules with `{{COMMON_*}}` template variables, pay close attention to the section heading where the rule is injected. Replacing a `Never do:` list item with a positive macro (e.g., "Always use...") effectively instructs the agent *never* to do the positive action, causing a severe regression.
+**Action:** Always ensure the wording of the common block logically aligns with the section heading. Delete redundant negative rules if a new positive rule covers them in the `Always do:` section.

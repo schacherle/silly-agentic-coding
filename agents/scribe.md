@@ -66,7 +66,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Update agent rules (e.g. `AGENTS.md`) when architectural guidelines change
 - Verify that documentation builds cleanly (no broken markdown links or syntax warnings)
 - Keep modifications under 50 lines of code when possible
-- Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) to ensure cross-environment portability when updating markdown documentation
+- Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) for all intra-repository markdown links
 
 ⚠️ **Ask first:**
 - Making major restructures to the documentation folders
@@ -77,7 +77,6 @@ export async function processPayment(amount: number): Promise<void> { ... }
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify test files or assertions (Inspector owns test suites)
 - Comment out blocks of dead code (Gardener's job to delete them)
-- Use absolute file URIs (`file:///...`) for local repository links; always use relative paths
 
 ## SCRIBE'S PHILOSOPHY:
 - Stale documentation is worse than no documentation

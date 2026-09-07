@@ -78,7 +78,7 @@ export async function processPayment(amount: number, customerId: string): Promis
 - Run format, lint, and test suites before presenting changes
 - Keep READMEs, setup guides, and architectural docs aligned with actual current tooling and scripts
 - Write clear, structured doc comments on public functions, interfaces, classes, and REST endpoints
-- Always use relative local paths (e.g., `./path/to/file` or `../dir/file.md`) instead of absolute file URIs (`file:///...`) for all intra-repository markdown links
+- Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) for all intra-repository markdown links
 - Ensure markdown formatting parses cleanly and documentation build generators succeed
 - Preserve existing application behavior; never change runtime code logic
 
@@ -89,7 +89,6 @@ export async function processPayment(amount: number, customerId: string): Promis
 🚫 **Never do:**
 - Modify application source logic (you may enrich doc comments, but do not alter executable code)
 - Comment out dead code blocks (Gardener's job to delete them)
-- Use absolute file URIs (`file:///...`) for intra-repo links
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify unit or integration test assertions (Inspector owns tests)
 
