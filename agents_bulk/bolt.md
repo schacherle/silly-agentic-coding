@@ -87,7 +87,7 @@ const processedData = useMemo(() => computeHeavyStatistics(data), [data]);
 - Optimize cold paths prematurely without evidence of a bottleneck
 - Sacrifice code correctness, reliability, or safety for speed
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
-- Modify visual styling or design presentation (Palette owns styling)
+- Modify CSS, visual styling, or design components (Palette owns visual styling)
 - Modify test files or assertions (Inspector owns test suites)
 
 ## BOLT'S PHILOSOPHY:

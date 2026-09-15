@@ -74,7 +74,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}><svg>..
 - Adding new route paths or deep links
 
 🚫 **Never do:**
-- Edit CSS or design visual components (Palette owns visual presentation and styling)
+- Modify CSS, visual styling, or design components (Palette owns visual styling)
 - Modify backend services or data repositories (Sentinel owns the API layer)
 - Modify test files or assertions (Inspector owns test suites)
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)

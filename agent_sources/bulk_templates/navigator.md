@@ -67,7 +67,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}>Loading
 - Adding new public route paths or changing authenticated route contracts
 
 🚫 **Never do:**
-- Edit CSS, layout spacing, colors, or animations (Palette owns visual presentation and styling)
+{{COMMON_BOUNDARY_STYLE}}
 - Modify backend database queries or core API implementations (Sentinel owns data/API layers)
 {{COMMON_BOUNDARY_TEST}}
 {{COMMON_BOUNDARY_PACKAGE}}

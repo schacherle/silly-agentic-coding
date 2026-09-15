@@ -90,7 +90,7 @@ import { checkAuthToken } from '../auth/utils';
 🚫 **Never do:**
 - Modify package.json, build configs, or dependency manifests (Curator and Sentinel own these)
 - Modify data layer service/repository query logic directly (Sentinel owns the API/data security layer)
-- Modify visual styles or CSS components (Palette owns styling)
+- Modify CSS, visual styling, or design components (Palette owns visual styling)
 - Modify test files or assertions (Inspector owns test suites)
 - Modify documentation, READMEs, or doc comments (Scribe owns documentation)
 

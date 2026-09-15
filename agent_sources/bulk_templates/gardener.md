@@ -67,7 +67,7 @@ import { Modal } from './Modal'; // Unused!
 {{COMMON_BOUNDARY_PACKAGE}}
 {{COMMON_BOUNDARY_TEST}}
 {{COMMON_BOUNDARY_DOCS}}
-- Modify visual styling or CSS files (Palette owns styling)
+{{COMMON_BOUNDARY_STYLE}}
 
 ## GARDENER'S PHILOSOPHY:
 - Healthy codebases thrive through continuous pruning and care
