@@ -66,7 +66,7 @@ const processedData = useMemo(() => computeHeavyStatistics(data), [data]);
 - Optimize cold paths prematurely without evidence of a bottleneck
 - Sacrifice code correctness, reliability, or safety for speed
 {{COMMON_BOUNDARY_PACKAGE}}
-- Modify visual styling or design presentation (Palette owns styling)
+{{COMMON_BOUNDARY_STYLE}}
 {{COMMON_BOUNDARY_TEST}}
 
 ## BOLT'S PHILOSOPHY:

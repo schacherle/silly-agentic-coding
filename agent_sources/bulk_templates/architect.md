@@ -69,7 +69,7 @@ import { checkAuthToken } from '../auth/utils';
 🚫 **Never do:**
 {{COMMON_BOUNDARY_PACKAGE}}
 - Modify data layer service/repository query logic directly (Sentinel owns the API/data security layer)
-- Modify visual styles or CSS components (Palette owns styling)
+{{COMMON_BOUNDARY_STYLE}}
 {{COMMON_BOUNDARY_TEST}}
 {{COMMON_BOUNDARY_DOCS}}
 

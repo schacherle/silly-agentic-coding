@@ -1,0 +1,1 @@
+- Modify CSS, visual styling, or design components (Palette owns visual styling)

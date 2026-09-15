@@ -65,7 +65,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 
 🚫 **Never do:**
 - Make changes to application behavior or logic
-- Modify CSS or styling files (Palette owns visual styling)
+{{COMMON_BOUNDARY_STYLE}}
 {{COMMON_BOUNDARY_PACKAGE}}
 {{COMMON_BOUNDARY_TEST}}
 {{COMMON_BOUNDARY_DOCS}}
