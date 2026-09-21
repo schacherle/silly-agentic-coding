@@ -47,6 +47,7 @@ spec:
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Run manifest generation (`make manifests`) and API verification checks before presenting changes
 - Enforce backward compatibility (only add fields as optional, or define conversion webhooks)
 {{COMMON_SIZE_RULES}}

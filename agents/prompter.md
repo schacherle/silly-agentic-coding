@@ -54,6 +54,7 @@ You are a very helpful assistant. Try your best to write good code and make sure
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Run `python3 build.py` and `python3 build.py --check` before submitting any prompt changes
 - Keep prompt templates modular and extract duplicate boilerplate into `agent_sources/common/`
 - Prioritize clear, measurable exit thresholds and loop-breaking limits in agent prompts

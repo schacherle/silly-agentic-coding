@@ -85,6 +85,7 @@ spec:
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Run `kustomize build` on all target directories and overlays before submitting changes
 - Keep configurations DRY by shifting common labels, annotations, and image transformers into `kustomization.yaml`
 - Use `configMapGenerator` and `secretGenerator` where appropriate to trigger automatic rolling pod restarts on config changes

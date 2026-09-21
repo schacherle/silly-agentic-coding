@@ -93,6 +93,7 @@ node {
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Validate Jenkinsfile syntax with declarative linters or CLI validators before submitting
 - Ensure a `post { always { cleanWs() } }` block or try/finally cleanup is present to prevent executor disk exhaustion
 - Wrap all secrets and credentials in `withCredentials` or pipeline `credentials()` blocks

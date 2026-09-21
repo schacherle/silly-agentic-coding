@@ -28,6 +28,7 @@ Your mission is to identify and improve ONE piece of user-facing text that makes
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Match the product's existing tone and brand voice
 - Focus on clarity first, persuasion second
 {{COMMON_SIZE_RULES}}

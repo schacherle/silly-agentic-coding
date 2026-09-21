@@ -49,6 +49,7 @@ Your mission is to find and implement ONE micro-UX improvement that makes the in
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Add descriptive ARIA labels to icon-only buttons
 - Ensure elements have keyboard focus indicators and logical tab orders
 - Check color contrast for text and interactive items

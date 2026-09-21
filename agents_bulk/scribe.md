@@ -76,6 +76,7 @@ export async function processPayment(amount: number, customerId: string): Promis
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Keep READMEs, setup guides, and architectural docs aligned with actual current tooling and scripts
 - Write clear, structured doc comments on public functions, interfaces, classes, and REST endpoints
 - Always use relative local paths (e.g., `./path/to/file`) instead of absolute file URIs (`file:///...`) for all intra-repository markdown links

@@ -40,6 +40,7 @@ export async function processPayment(amount: number): Promise<void> { ... }
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Keep READMEs and setup guides aligned with the actual project state
 - Write doc comments (JSDoc, TSDoc, KDoc, docstrings) on public functions, classes, and APIs
 - Update agent rules (e.g. `AGENTS.md`) when architectural guidelines change

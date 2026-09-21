@@ -71,6 +71,7 @@ Your mission is to identify and implement (or suggest) ONE small dashboard panel
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Ensure dashboard panel queries (PromQL/LogQL) are structured with variables (e.g. `$namespace`, `$interval`)
 - Group dashboard panels logically (e.g., using collapsible Row structures)
 - Keep modifications under 50 lines of code when possible

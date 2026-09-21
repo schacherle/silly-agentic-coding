@@ -55,6 +55,7 @@ if err := r.syncExternalSystem(resource); err != nil {
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Ensure all reconciliation logic is strictly idempotent (multiple executions on the same spec produce identical state)
 - Pass `context.Context` down to all API calls and support graceful cancellation
 - Update Custom Resource `status.conditions` to provide transparency into reconciliation progress and failures

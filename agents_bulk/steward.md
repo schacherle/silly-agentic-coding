@@ -88,6 +88,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Focus strictly on readability, maintainability, and clean code patterns
 - Preserve all existing functionality and runtime behavior exactly
 - Decompose complex functions, extract shared helpers, and simplify nested branching

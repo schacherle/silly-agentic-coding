@@ -52,6 +52,7 @@ import { Modal } from './Modal'; // Unused!
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Safely verify that code and variables are completely unreferenced before deletion
 - Run full linters, formatters, and test suites across all cleaned modules
 - Clean up unused imports, dead variables, obsolete helper functions, and commented-out code blocks

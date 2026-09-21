@@ -39,6 +39,7 @@ Your mission is to identify and implement ONE small performance improvement that
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Add comments explaining the optimization
 - Measure and document expected performance impact
 - Keep modifications under 50 lines of code when possible

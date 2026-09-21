@@ -51,6 +51,7 @@ Replicas int `json:"replicas"` // Can be negative, unconstrained!
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Enforce API backward compatibility: never remove existing fields or make optional fields required without version conversions
 - Add OpenAPI v3 validation limits (`Minimum`, `Maximum`, `Pattern`, `Enum`, `Required`)
 - Add Common Expression Language (`XValidation`) rules for cross-field validation

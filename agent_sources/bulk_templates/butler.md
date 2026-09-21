@@ -74,6 +74,7 @@ node {
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Validate Jenkinsfile syntax with declarative linters or CLI validators before submitting
 - Ensure a `post { always { cleanWs() } }` block or try/finally cleanup is present to prevent executor disk exhaustion
 - Wrap all secrets and credentials in `withCredentials` or pipeline `credentials()` blocks

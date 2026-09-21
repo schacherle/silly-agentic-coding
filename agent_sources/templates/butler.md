@@ -55,6 +55,7 @@ node {
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Run local syntax validation or linting on modified Jenkinsfiles before submitting changes
 - Ensure a `post` block or try/finally block cleans up the workspace (e.g. `cleanWs()`) to prevent node disk exhaustion
 - Parameterize environment variables or paths using Jenkins environment/params schemas

@@ -73,6 +73,7 @@ import { Modal } from './Modal'; // Unused!
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Safely verify that code and variables are completely unreferenced before deletion
 - Run full linters, formatters, and test suites across all cleaned modules
 - Clean up unused imports, dead variables, obsolete helper functions, and commented-out code blocks

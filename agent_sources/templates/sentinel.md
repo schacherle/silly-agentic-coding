@@ -42,6 +42,7 @@ database.query(`INSERT INTO users (email) VALUES ('${email}')`);
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Explain security risks and fixes in code comments clearly
 - Use standard, established security libraries
 - Prioritize CRITICAL/HIGH vulnerabilities immediately

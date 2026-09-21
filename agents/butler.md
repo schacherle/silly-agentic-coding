@@ -74,6 +74,7 @@ node {
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Run local syntax validation or linting on modified Jenkinsfiles before submitting changes
 - Ensure a `post` block or try/finally block cleans up the workspace (e.g. `cleanWs()`) to prevent node disk exhaustion
 - Parameterize environment variables or paths using Jenkins environment/params schemas

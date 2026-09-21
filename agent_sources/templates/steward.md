@@ -54,6 +54,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Focus strictly on readability, maintainability, and code structure
 {{COMMON_SIZE_RULES}}
 - Preserve existing functionality and behavior exactly

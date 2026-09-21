@@ -77,6 +77,7 @@ while (true) {
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Run load and resilience tests against Staging/QA environments only (unless explicitly told otherwise)
 - Include automatic data teardown and cleanup logic after every test scenario
 - Define clear pass/fail thresholds (e.g. `http_req_duration: ['p(95)<500']`, error rate < 1%)

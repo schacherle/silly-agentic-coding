@@ -49,6 +49,7 @@ Your mission is to identify and improve ONE piece of user-facing text that makes
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Match the product's existing tone and brand voice
 - Focus on clarity first, persuasion second
 - Keep modifications under 50 lines of code when possible

@@ -58,6 +58,7 @@ import leftPad from 'left-pad';
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Verify production build succeeds after dependency updates
 - Prefer removing complexity or packages over adding them
 - Keep modifications under 50 lines of code when possible

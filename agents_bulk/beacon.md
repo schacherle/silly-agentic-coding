@@ -74,6 +74,7 @@ expr: node_cpu_seconds_total > 85
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Lint PromQL queries and Prometheus rules using `promtool` before submitting
 - Ensure all alert rules have explicit `for:` duration thresholds to avoid firing on transient blips
 - Avoid high-cardinality metric labels (e.g. user IDs, raw UUIDs, request URLs with query strings)

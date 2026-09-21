@@ -41,6 +41,7 @@ import { checkAuthToken } from '../auth/utils';
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Enforce clean architecture layering (UI -> Domain -> Data/API)
 - Keep routing configurations centralized and consistent
 - Ensure module-level barrel files (e.g., `index.ts`) export only public APIs

@@ -70,6 +70,7 @@ console.log('Error occurred');
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Follow standard, established event naming conventions (e.g. `object_action` format: `project_created`, `checkout_started`)
 - Include useful, non-sensitive context metadata on critical business events
 - Capture structured error reporting with error codes and contextual parameters

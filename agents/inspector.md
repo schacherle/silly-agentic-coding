@@ -67,6 +67,7 @@ expect(component.state.isLoading).toBe(false);
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Write focused, deterministic, and reliable tests
 - Cover realistic edge cases (empty inputs, null values, error responses, boundary conditions)
 - Fix broken or flaky tests safely (fix tests, do not disable them)
