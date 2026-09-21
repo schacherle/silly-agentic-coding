@@ -55,6 +55,7 @@ export async function processPayment(amount: number, customerId: string): Promis
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Keep READMEs, setup guides, and architectural docs aligned with actual current tooling and scripts
 - Write clear, structured doc comments on public functions, interfaces, classes, and REST endpoints
 {{COMMON_RELATIVE_PATHS_RULE}}

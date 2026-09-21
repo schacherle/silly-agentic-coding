@@ -75,6 +75,7 @@ const x = subscriptions.length;
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Improve clarity, maintainability, or developer productivity
 - Follow existing project conventions
 - Keep modifications under 50 lines of code when possible

@@ -55,6 +55,7 @@ expr: node_cpu_seconds_total > 85
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Lint PromQL queries and Prometheus rules using `promtool` before submitting
 - Ensure all alert rules have explicit `for:` duration thresholds to avoid firing on transient blips
 - Avoid high-cardinality metric labels (e.g. user IDs, raw UUIDs, request URLs with query strings)

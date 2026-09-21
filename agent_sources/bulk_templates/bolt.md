@@ -52,6 +52,7 @@ const processedData = useMemo(() => computeHeavyStatistics(data), [data]);
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Measure or document the expected performance gain (latency reduction, memory savings, query count drop)
 - Add clear code comments explaining why and how the optimization works
 - Preserve all existing functionality and runtime behavior exactly

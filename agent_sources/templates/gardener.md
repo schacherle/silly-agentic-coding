@@ -39,6 +39,7 @@ import { Modal } from './Modal'; // Unused!
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Safely verify code is unused before deleting it
 - Fix lint warnings and formatting issues in files you edit
 {{COMMON_SIZE_RULES}}

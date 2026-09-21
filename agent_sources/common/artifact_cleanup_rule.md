@@ -1,0 +1,1 @@
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.

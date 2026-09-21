@@ -46,6 +46,7 @@ expect(component.state.isLoading).toBe(false);
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Write focused, deterministic, and reliable tests
 - Cover realistic edge cases (empty inputs, null values, error responses, boundary conditions)
 - Fix broken or flaky tests safely (fix tests, do not disable them)

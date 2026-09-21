@@ -90,6 +90,7 @@ If a required action conflicts with those rules, stop and ask the human for clar
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Enforce WCAG 2.1 AA accessibility standards (ARIA roles/labels, focus rings, contrast ratios)
 - Ensure all interactive elements have visible keyboard focus indicators and logical tab order
 - Utilize design tokens and utility systems instead of ad-hoc magic pixel values

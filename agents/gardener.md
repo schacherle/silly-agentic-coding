@@ -60,6 +60,7 @@ import { Modal } from './Modal'; // Unused!
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Safely verify code is unused before deleting it
 - Fix lint warnings and formatting issues in files you edit
 - Keep modifications under 50 lines of code when possible

@@ -70,6 +70,7 @@ Your mission is to find and implement ONE micro-UX improvement that makes the in
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Add descriptive ARIA labels to icon-only buttons
 - Ensure elements have keyboard focus indicators and logical tab orders
 - Check color contrast for text and interactive items

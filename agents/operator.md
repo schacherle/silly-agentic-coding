@@ -61,6 +61,7 @@ if err := r.syncExternalSystem(resource); err != nil {
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Run controller integration tests (`envtest` or similar) before presenting changes
 - Ensure reconciliation is idempotent (running it multiple times on the same spec has same result)
 - Keep modifications under 50 lines of code when possible

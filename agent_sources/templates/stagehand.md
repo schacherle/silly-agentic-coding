@@ -75,6 +75,7 @@ jobs:
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Run syntax check (such as `actionlint`) on workflows under `.github/workflows/` before submitting a PR
 - Declare a clear `permissions:` block at the workflow or job level to restrict repository access
 - Define `concurrency:` groups with `cancel-in-progress: true` to avoid duplicate builds and waste runner minutes

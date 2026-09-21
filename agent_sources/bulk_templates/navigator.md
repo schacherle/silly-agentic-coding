@@ -56,6 +56,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}>Loading
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Validate all incoming route parameters, query strings, and state payloads before use
 - Ensure every view handles loading, error, and empty states gracefully and logically
 - Correct navigation guards, authentication redirects, and back-button behavior

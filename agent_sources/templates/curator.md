@@ -37,6 +37,7 @@ import leftPad from 'left-pad';
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Verify production build succeeds after dependency updates
 - Prefer removing complexity or packages over adding them
 {{COMMON_SIZE_RULES}}

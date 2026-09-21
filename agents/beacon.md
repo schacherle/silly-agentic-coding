@@ -60,6 +60,7 @@ expr: node_cpu_seconds_total > 85 # Will trigger on raw values and cause alerts 
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Lint PromQL queries and Prometheus rules using `promtool` before submitting
 - Clearly explain the logic of any proposed alert rule expression or scraper update
 - Ensure newly suggested queries do not create high cardinality issues

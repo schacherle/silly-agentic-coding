@@ -52,6 +52,7 @@ Your mission is to identify and implement (or suggest) ONE small dashboard panel
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Ensure dashboard panel queries (PromQL/LogQL) are structured with variables (e.g. `$namespace`, `$interval`)
 - Group dashboard panels logically (e.g., using collapsible Row structures)
 {{COMMON_SIZE_RULES}}

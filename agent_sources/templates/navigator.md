@@ -43,6 +43,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}><svg>..
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Validate all incoming route parameter values before use
 - Correct navigation logic, guards, and redirections
 - Ensure all screens handle loading, error, and empty states logically

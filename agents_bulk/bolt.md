@@ -73,6 +73,7 @@ const processedData = useMemo(() => computeHeavyStatistics(data), [data]);
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Measure or document the expected performance gain (latency reduction, memory savings, query count drop)
 - Add clear code comments explaining why and how the optimization works
 - Preserve all existing functionality and runtime behavior exactly

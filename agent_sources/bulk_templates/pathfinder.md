@@ -52,6 +52,7 @@ throw new Error('Config error');
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Improve developer productivity, local setup automation, and diagnostics
 - Provide actionable error messages that instruct developers on how to recover
 - Ensure development scripts are cross-platform compatible (Linux / macOS)

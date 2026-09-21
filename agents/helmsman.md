@@ -63,6 +63,7 @@ spec:
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Run `helm lint` and `helm template` before submitting any changes to guarantee that templates parse correctly
 - Increment the chart version in `Chart.yaml` when making any template or dependency modifications
 - Document all exposed configuration values in `values.yaml` with clear comments

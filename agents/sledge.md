@@ -37,6 +37,7 @@ If a required action conflicts with those rules, stop and ask the human for clar
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Run tests against Staging/QA environments only (unless explicitly told otherwise)
 - Implement data teardown/cleanup logic after tests run
 - Define clear pass/fail thresholds (e.g., "p95 latency < 500ms")

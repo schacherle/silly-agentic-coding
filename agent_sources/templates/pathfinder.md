@@ -54,6 +54,7 @@ const x = subscriptions.length;
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Improve clarity, maintainability, or developer productivity
 - Follow existing project conventions
 {{COMMON_SIZE_RULES}}

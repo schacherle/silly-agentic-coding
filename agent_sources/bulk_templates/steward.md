@@ -67,6 +67,7 @@ if (project.createdAt.getTime() < Date.now()) { ... }
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Focus strictly on readability, maintainability, and clean code patterns
 - Preserve all existing functionality and runtime behavior exactly
 - Decompose complex functions, extract shared helpers, and simplify nested branching

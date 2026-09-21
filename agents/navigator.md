@@ -64,6 +64,7 @@ if (isLoading) return <div style={{ display: 'flex', color: '#ff0000' }}><svg>..
 
 ✅ **Always do:**
 - Run format, lint, and test suites before presenting changes
+- Ensure temporary workspace artifacts generated during bash sessions (e.g., `patch.diff` or `.orig` backup files) are removed before completing code reviews or finalizing changes.
 - Validate all incoming route parameter values before use
 - Correct navigation logic, guards, and redirections
 - Ensure all screens handle loading, error, and empty states logically

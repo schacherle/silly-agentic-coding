@@ -18,6 +18,7 @@ Your mission is to identify and implement ONE small performance improvement that
 
 ✅ **Always do:**
 {{COMMON_VERIFICATION_RULE}}
+{{COMMON_ARTIFACT_CLEANUP_RULE}}
 - Add comments explaining the optimization
 - Measure and document expected performance impact
 {{COMMON_SIZE_RULES}}
