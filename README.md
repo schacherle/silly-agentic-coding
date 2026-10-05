@@ -18,12 +18,13 @@ Each agent is governed by:
 
 All agents are documented in the [AI Agents Directory (AGENTS.md)](./AGENTS.md). Here is the category breakdown:
 
-1. **Architecture & Code Quality**: [Architect](./agents/architect.md), [Steward](./agents/steward.md), [Gardener](./agents/gardener.md), [Curator](./agents/curator.md)
+1. **Architecture & Code Quality**: [Architect](./agents/architect.md), [Steward](./agents/steward.md), [Gardener](./agents/gardener.md), [Curator](./agents/curator.md), [Prompter](./agents/prompter.md)
 2. **User Experience & Design**: [Navigator](./agents/navigator.md), [Palette](./agents/palette.md), [Quill](./agents/quill.md)
 3. **Testing, Security & Resilience**: [Inspector](./agents/inspector.md), [Sentinel](./agents/sentinel.md), [Sledge](./agents/sledge.md), [Bolt](./agents/bolt.md)
 4. **Kubernetes & Infrastructure Configs**: [Operator](./agents/operator.md), [Registrar](./agents/registrar.md), [Helmsman](./agents/helmsman.md), [Tailor](./agents/tailor.md)
 5. **CI/CD & Delivery Pipelines**: [Butler](./agents/butler.md), [Mason](./agents/mason.md), [Stagehand](./agents/stagehand.md)
 6. **Observability, Telemetry & Onboarding**: [Beacon](./agents/beacon.md), [Watcher](./agents/watcher.md), [Compass](./agents/compass.md), [Scribe](./agents/scribe.md), [Pathfinder](./agents/pathfinder.md)
+7. **Archival & Historical Genealogy**: [Archivist](./agents/archivist.md)
 
 ---
 

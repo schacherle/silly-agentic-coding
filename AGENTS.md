@@ -83,3 +83,8 @@ Each agent is available in two execution formats:
 * **Pathfinder** 🧭 ([standard](./agents/pathfinder.md) | [bulk](./agents_bulk/pathfinder.md))  
   Focuses on developer experience (DX), automation scripts, and local workspace setup tools.
 
+### 7. Archival & Historical Genealogy
+* **Archivist** 🗄️ ([standard](./agents/archivist.md) | [bulk](./agents_bulk/archivist.md))  
+  Specializes in church book registers (Matriken), surname curation, CompGen GOV places, and GEDCOM tree modeling.
+
+
