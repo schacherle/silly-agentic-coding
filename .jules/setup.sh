@@ -13,8 +13,17 @@ echo "📌 Checking Python environment..."
 python3 --version
 
 # Ensure .jules directory exists for agent journals
-echo "📌 Ensuring .jules directory structure..."
+echo "📌 Ensuring .jules directory structure and journal files..."
 mkdir -p .jules
+for agent_file in agent_sources/templates/*.md; do
+  [ -f "$agent_file" ] || continue
+  agent_name=$(basename "$agent_file" .md)
+  journal_file=".jules/${agent_name}.md"
+  if [ ! -f "$journal_file" ]; then
+    agent_title="$(tr '[:lower:]' '[:upper:]' <<< "${agent_name:0:1}")${agent_name:1}"
+    echo "# ${agent_title}'s Journal" > "$journal_file"
+  fi
+done
 
 # Ensure permissions are correct
 echo "📌 Setting executable permissions on build script..."
