@@ -26,6 +26,7 @@ COMMON_FILES: dict[str, str] = {
     "COMMON_BOUNDARY_STYLE": "boundary_style.md",
     "COMMON_RELATIVE_PATHS_RULE": "relative_paths_rule.md",
     "COMMON_ARTIFACT_CLEANUP_RULE": "artifact_cleanup_rule.md",
+    "COMMON_PROMPT_DESIGN_STANDARDS": "prompt_design_standards.md",
 }
 
 
